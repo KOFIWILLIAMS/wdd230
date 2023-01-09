@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@900&family=PT+Sans+Narrow&display=swap");
+
+:root {
+    /* change the values below to your chosen font(s) */
+    --heading-font: "M PLUS 1p";
+    --paragraph-font: "PT Sans Narrow";
+  }
+  
+
 
 body{
     margin: 0 auto;
@@ -13,6 +22,10 @@ li {
     line-height: 25px;
 }
 
+p, h2{
+    font-family: var(--paragraph-font);
+}
+
 header{
     display: flex;
     background-color: #004d70;;
@@ -21,6 +34,7 @@ header{
     padding: 1rem;
     border-radius: 1rem;
     text-align: center;
+    font-family: var(--heading-font);
 }
 
 .mypic {
