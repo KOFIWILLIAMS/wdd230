@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@900&family=PT+Sans+Narrow&display=swap");
+
+:root {
+    /* change the values below to your chosen font(s) */
+    --heading-font: "M PLUS 1p";
+    --paragraph-font: "PT Sans Narrow";
+}
+
+
+
+body {
+    margin: 0 auto;
+    padding: .5rem;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    /* width: 700px; */
+}
+
+
+#main {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+h2 {
+    color: #1a3325;
+    font-family: var(--heading-font)
+}
+
+h3 {
+    font-family: var(--heading-font)
+}
+
+p {
+    font-family: var(--paragraph-font);
+    font-size: 16px;
+}
+
+header {
+    /* display: flex; */
+    background-color: #1a3325;
+    color: white;
+    justify-content: center;
+    padding: 1rem;
+    /* border-radius: 1rem; */
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+
+
+img {
+    width: 95%;
+    height: 70%;
+}
+
+
+#firstCard,
+#secondCard,
+#thirdCard {
+    margin: 0;
+    padding: 0;
+    border: 3px solid black;
+    border-radius: 3px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    justify-items: start;
+    height: auto;
+    /* border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem ; */
+
+}
+
+
+footer {
+    background-color: #1a3325;
+    color: rgb(219, 219, 219);
+    text-align: center;
+    padding: 1rem;
+    /* border-radius: 1rem; */
+    font-size: 18px;
+}
+
+/* div,
+#last_updated {
+    color:  #1a3325;
+    font-size: .9em;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 5px;
+
+} */

@@ -37,12 +37,12 @@ header{
     font-family: var(--heading-font);
 }
 
-.mypic {
+img {
     box-shadow: 3px 3px 3px 3px rgba(187, 187, 187, 0.36);
     height: 25%;
     width: 25%;
-    margin-right: 10%;
-    border-radius: 1rem;
+    /* margin-right: 10%; */
+    border-radius: 3px;
 }
 
 .main {

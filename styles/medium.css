@@ -1,0 +1,19 @@
+@media only screen and (min-width: 32.5em){
+    h1 {
+        font-size: 2.5em;
+    }
+    img{
+        /* float: left; */
+        border-radius: 3px;
+        box-shadow: -5px 5px 15px grey;
+    }
+
+    footer {
+        background-color: #004d70;
+        color: rgb(219, 219, 219);
+        text-align: center;
+        padding: 1rem;
+        border-radius: 1rem;
+        font-size: 16px;
+    }
+}
