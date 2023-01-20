@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD-230 | SITE PLANNING</title>
+
+    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+
+</head>
+
+<body onload="getyear()">
+
+    <div class="content">
+        <header class="clear_fix">
+            <a id="logo_link" href="index.html">
+                <img class="my_logo" src="images/logo.jpg" alt="Logo" />
+                <h1>Accra Chamber of Commerce and Industry</h1>
+                <h2>GNCCI</h2>
+            </a>
+        </header>
+
+        <nav class="clear_fix">
+            <hr>
+            <ul>
+                <li><a href="index.html">Site Plan Home</a></li>
+                <li><a href="target-audience.html">Target Audience</a></li>
+                <li class="active"><a href="design.html">Design</a></li>
+            </ul>
+
+        </nav>
+
+
+        <main id="main">
+
+            <br>
+            <hr>
+            <h3>COLOR SCHEME</h3>
+            <p>
+
+                - Text Color : black - for text, headers, and nav background
+                <BR>
+                - Active Link : #007728 - for active link and hover
+                <BR>
+                -Background : 003a13 For the footer and the header background
+
+            </p>
+            <h3>COLOR SCREENSHOOT</h3>
+            <img src="images/color.jpg" alt="logo">
+
+
+
+            <h3>TYPOGRAPHY</h3>
+            <p>
+
+                --heading-font: "M PLUS 1p";
+                <br>
+                --paragraph-font: "PT Sans Narrow";
+
+            </p>
+
+        </main>
+
+        <footer>
+            <p>
+                &copy; <span id="current_year"></span> .:|:. Asomani Williams
+                .:|:. Utah |
+            </p>
+            <p>Last Updated:
+                <span id="last_updated"></span>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

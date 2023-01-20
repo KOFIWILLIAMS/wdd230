@@ -1,0 +1,12 @@
+@media only screen and (min-width: 64rem) {
+
+    header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
+
+    #main{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
