@@ -42,10 +42,14 @@ header img {
     background-color: #dbdbdb;
   }  
 
-/* NAVIGATION */
-/* nav {
-    background-color: #00fc54;
-} */
+  #c_pic {
+    width: 35%;
+    height: 30%;
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1rem; */
+} 
 
 nav ul {
     list-style-type: none;
