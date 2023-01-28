@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@900&family=PT+Sans+Narrow&display=swap");
+
+:root {
+    /* change the values below to your chosen font(s) */
+    --heading-font: "M PLUS 1p";
+    --paragraph-font: "PT Sans Narrow";
+}
+ 
+ header {
+    background-color:#003a13 ;
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin: auto;
+    /* border-bottom: 4px solid var(--lightgreen); */
+ }
+ 
+ header button{
+    position: absolute;
+    /* background-color: transparent; */
+    /* color: white; */
+    font-size: 1.5rem;
+    border: none;
+    margin: 5px 20px 20px 5px;
+ }
+ 
+header img{
+    /* width: 20%;
+    height: 85%; */
+    margin: 1rem;
+    max-width: 110px;
+    max-height: 110px;
+    padding: 4px;
+    border-radius: 25px;
+    background-color: #dbdbdb;
+  }  
+
+ header h1{
+    font-family: var(--robo);
+    /* background-color: transparent; */
+    /* color: white; */
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 0%;
+    padding-right: 10px;
+ }
+ 
+ header h2{
+    font-family: var(--robo);
+    /* background-color: transparent;
+    color: white; */
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-size: 17px;
+    margin-top: 0%;
+    margin-bottom: 10px;
+    padding-right: 10px;
+ }
+ 
+ header div p{
+    /* color: var(--lightgreen); */
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    padding-right: 10px;
+ }
+ 
+ /* nav {
+    background-color: #eee;
+ } */
+ 
+ /* nav button{
+    margin: .2rem 2vw;
+    background: var(--darkgrey);
+    border: none;
+    font-size: 2rem;
+    color: var(--white);
+    flex: 1 1;
+ }
+  */
+
+ nav button {
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+
+
+
+nav {
+    background-color: #eee;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0;
+}
+
+
+ /* nav ul {
+    display: none;
+    background-color: var(--darkgrey);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+ }
+  */
+ nav ul.open{
+    display: block
+ }
+ 
+ #social_links {
+   display: flex;
+   /* display:flow-root; */
+   align-self: center;
+   margin: 0;
+   padding: 15px;
+   margin-top: 30px;
+}
+
+#social_links img {
+   width: 30px;
+   height: 30px;
+   margin-left: 8px;
+}
+
+ header div a:hover{
+    background-color: #7ceea2;
+ }
+ 
+ /* header img{
+
+ } */
+ 
+ /* header div img{
+    max-width: 32px;
+    max-height: 32px;
+ } */
+ 
+ #hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+ 
+
+ #title-container{
+    display: block;
+    width: 100%;
+ }
+ 
+ 
+ nav ul li a {
+
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+/*     
+    display: block;
+    text-align: center;
+    color: #003a13;
+    font-size: 20px;
+    font-family: var(--robo);
+    text-decoration: none;
+    padding: .8rem 2vw;
+    border-bottom: var(--green);
+    border-left: var(--darkgrey);
+    border-right: var(--darkgrey);
+    border-top: var(--darkgrey);
+    border-style: solid;
+    border-width: thin;    */
+ }
+ 
+
+ 
+ main {
+    display: block;
+    text-align: center;
+    background-color: rgb(128, 179, 115);
+    margin: 5px;
+ }
+ 
+ #call-to-action {
+    border: thin solid rgb(194, 194, 194);
+    background-color: white;
+    margin-top: 0px;
+    height: 200px;
+ }
+ 
+ #event1 {
+    border: thin solid rgb(194, 194, 194);
+    background-color: white;
+    margin-top: 5px;
+    height: 200px;
+ }
+ 
+ #weather {
+    border: thin solid rgb(194, 194, 194);
+    background-color: white;
+    margin-top: 5px;
+    height: 200px;
+ }
+ 
+ #news {
+    border: thin solid rgb(194, 194, 194);
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 200px;
+ }
+ 
+ #spotlight-section {
+    border: thin solid rgb(194, 194, 194);
+    background-color: rgb(192, 252, 177);
+    padding: 5px 5px 5px 5px;
+ }
+ 
+ #spotlight1 {
+    border: thin solid rgb(194, 194, 194);
+    background-color: rgb(200, 212, 186);
+    margin-top: 0px;
+    height: 200px;
+ }
+ 
+ #spotlight2 {
+    border: thin solid rgb(194, 194, 194);
+    background-color: rgb(116, 116, 116);
+    margin-top: 5px;
+    height: 200px;
+ }
+ 
+ #spotlight3 {
+    display: none;
+    border: thin solid rgb(194, 194, 194);
+    background-color: rgb(116, 116, 116);
+    margin-top: 5px;
+    height: 200px;
+ }
+ 
+ #join {
+    border: thin solid rgb(194, 194, 194);
+    background-color: rgb(116, 116, 116);
+    margin-top: 5px;
+    height: 200px;
+ }
+ 
+
+/* 
+ footer {
+    display: block;
+    font-family: var(--robo);
+    background-color: var(--black);
+    color: white;
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    background-color: #003a13;
+ }
+ 
+ footer div div a {
+    color: rgb(255, 200, 200);
+ }
+ 
+ footer div div a:visited{
+    color: rgb(225, 150, 255);
+ }
+ 
+ footer div div a:hover{
+    color: rgb(4, 255, 0);
+ }
+ 
+ footer img{
+    max-width: 100px;
+    max-height: 100px;
+ }
+ 
+ footer a img {
+    max-width: 20px;
+    max-height: 20px;
+ }
+ 
+ #sub-footer {
+    border-top: 2px solid var(--darkgreen);
+    padding-top: 25px;
+ } */
+ 
+
+ /* footer img{
+   max-width: 100px;
+   max-height: 100px;
+}
+
+footer a img {
+   max-width: 20px;
+   max-height: 20px;
+} */
+
+#sub-footer {
+   border-top: 2px solid var(--darkgreen);
+   padding-top: 25px;
+}
+
+#page-container {
+   position: relative;
+   min-height: 100vh;
+ }
+ 
+ #footerIMG{
+   margin: 1rem;
+   max-width: 110px;
+   max-height: 110px;
+   padding: 4px;
+   border-radius: 25px;
+   background-color: #dbdbdb;
+}
+ 
+ footer {
+   display: block;
+   background-color: #003a13;
+   color: rgb(219, 219, 219);
+   text-align: center;
+   padding: 1rem;
+   /* border-radius: 1rem; */
+   font-size: 18px;
+}
+
+
+ #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  

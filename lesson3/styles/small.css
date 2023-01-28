@@ -22,6 +22,7 @@ header h2 {
 
 
 header {
+    display: flex;
     background-color: #003a13;
     padding: 1rem;
     font-family: var(--paragraph-font);
@@ -35,8 +36,8 @@ header img {
 
 
   .my_logo {
-    width: 14%;
-    height: 14%;
+    width: 20%;
+    height: 85%;
     padding: 4px;
     border-radius: 25px;
     background-color: #dbdbdb;
@@ -79,10 +80,6 @@ nav ul li.active a {
 
 #main {
     padding: 1rem;
-    /* display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 1rem; */
 } 
 
 hr{
