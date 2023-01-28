@@ -47,7 +47,7 @@ header img{
  }
  
  header h2{
-    font-family: var(--robo);
+    /* font-family: var(--heading-font); */
     /* background-color: transparent;
     color: white; */
     text-align: center;
@@ -58,6 +58,10 @@ header img{
     padding-right: 10px;
  }
  
+ header div a:hover{
+   background-color: #235834;
+}
+
  header div p{
     /* color: var(--lightgreen); */
     text-align: center;
@@ -67,6 +71,9 @@ header img{
     padding-right: 10px;
  }
  
+ nav ul li a:hover {
+   background-color: #6a746d;
+}
  /* nav {
     background-color: #eee;
  } */
@@ -129,10 +136,7 @@ nav ul {
    margin-left: 8px;
 }
 
- header div a:hover{
-    background-color: #7ceea2;
- }
- 
+
  /* header img{
 
  } */
@@ -229,20 +233,20 @@ nav ul {
  
  #spotlight-section {
     border: thin solid rgb(194, 194, 194);
-    background-color: rgb(192, 252, 177);
+    background-color: #003a13 ;
     padding: 5px 5px 5px 5px;
  }
  
  #spotlight1 {
     border: thin solid rgb(194, 194, 194);
-    background-color: rgb(200, 212, 186);
+    background-color: white;
     margin-top: 0px;
     height: 200px;
  }
  
  #spotlight2 {
     border: thin solid rgb(194, 194, 194);
-    background-color: rgb(116, 116, 116);
+    background-color: white;
     margin-top: 5px;
     height: 200px;
  }
@@ -250,14 +254,14 @@ nav ul {
  #spotlight3 {
     display: none;
     border: thin solid rgb(194, 194, 194);
-    background-color: rgb(116, 116, 116);
+    background-color: white;
     margin-top: 5px;
     height: 200px;
  }
  
  #join {
     border: thin solid rgb(194, 194, 194);
-    background-color: rgb(116, 116, 116);
+    background-color: white;
     margin-top: 5px;
     height: 200px;
  }

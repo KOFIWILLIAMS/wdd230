@@ -16,10 +16,10 @@ const x = document.getElementById("hamburgerBtn")
 x.onclick = toggleMenu;
 
 
-// Full date
-const headerdate = document.querySelector("#headerdate");
+// // Full date
+// const headerdate = document.querySelector("#headerdate"); 
 
-const now = Date.now();
-const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
+// const now = Date.now(); 
+// const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
 
-headerdate.innerHTML = `Today is ${fulldate}`;
+// headerdate.innerHTML = `Today is ${fulldate}`;
