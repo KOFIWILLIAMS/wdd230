@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@900&family=PT+Sans+Narrow&display=swap");
+
+@media only screen and (min-width: 32.5em) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	main {
+		width: 320px;
+	}
+}
+
+
+:root {
+    /* change the values below to your chosen font(s) */
+    --heading-font: "M PLUS 1p";
+    --paragraph-font: "PT Sans Narrow";
+  }
+  
+
+
+body{
+    margin: 0 auto;
+    padding: .5rem;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    width: 700px;
+	background-color: rgb(215, 255, 207);
+
+}
+
+li {
+    letter-spacing: .6px;
+    line-height: 25px;
+}
+
+p, h2{
+    font-family: var(--paragraph-font);
+}
+
+
+.main {
+    padding: 1rem;
+    color: black;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: Acme, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+main {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+	background-color: #ddd;
+	display: flex;
+	flex-direction: column;
+}
+
+input,
+button {
+	padding: 0.5rem;
+}
+
+button {
+	margin: 0.5rem;
+}
+
+.delete {
+	width: fit-content;
+}
+
+.input {
+	display: flex;
+	gap: 1rem;
+}
+
+.list {
+	padding: 0.5rem;
+}
+
+ul {
+	margin: 1rem;
+	list-style: none;
+}
+
+li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+
+
