@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@900&family=PT+Sans+Narrow&display=swap");
+
 :root {
    /* change the values below to your chosen font(s) */
    --heading-font: "M PLUS 1p";
    --paragraph-font: "PT Sans Narrow";
    --background-color: #003a13;
-   --green-color:rgb(0, 184, 0);
+   --green-color: rgb(0, 184, 0);
 }
 
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
@@ -33,12 +34,14 @@ header {
    padding-right: 5px;
 }
 
-h1, h2 {
+h1,
+h2 {
    font-family: 'Rubik', sans-serif;
    color: white;
 }
 
-p, nav {
+p,
+nav {
    font-family: 'Nunito', sans-serif;
 }
 
@@ -49,24 +52,17 @@ p, nav {
 }
 
 #logo img {
-   /* display: block;
-   max-width:180px;
-   max-height:95px;
-   width: auto;
-   height: auto; */
-
-   /* margin: 1rem; */
    margin-right: 1rem;
    margin-top: 1rem;
    margin-bottom: 1rem;
-    max-width: 70px;
-    max-height: 70px;
-    padding: 2px;
-    border-radius: 20px;
-    background-color: #dbdbdb;
+   max-width: 70px;
+   max-height: 70px;
+   padding: 2px;
+   border-radius: 20px;
+   background-color: #dbdbdb;
 }
 
-#logo h1{
+#logo h1 {
    font-size: 16px;
    margin-top: 15px;
    font-family: var(--heading-font);
@@ -94,136 +90,14 @@ p, nav {
    height: 30px;
    margin-left: 8px;
    border-radius: 20px;
-    background-color: #dbdbdb;
-    padding: 2px;
+   background-color: #dbdbdb;
+   padding: 2px;
 }
 
 nav {
    background-color: transparent;
    font-size: 15px;
 }
-
-
-
-/*  
- header {
-    background-color:#003a13 ;
-    color: rgb(255, 255, 255);
-    display: flex;
-    margin: auto;
- }
- 
- header button{
-    position: absolute;
-    font-size: 1.5rem;
-    border: none;
-    margin: 5px 20px 20px 5px;
- }
- 
-header img{
-    margin: 1rem;
-    max-width: 110px;
-    max-height: 110px;
-    padding: 4px;
-    border-radius: 25px;
-    background-color: #dbdbdb;
-  }  
-
- header h1{
-    font-family: var(--heading-font);
-    text-align: center;
-    letter-spacing: 0.05em;
-    font-size: 20px;
-    margin-top: 25px;
-    margin-bottom: 0%;
- }
- 
- header h2{
-    font-family: var(--paragraph-font);
-    text-align: center;
-    letter-spacing: 0.05em;
-    font-size: 19px;
-    margin-top: 0%;
-    margin-bottom: 10px;
-  
- }
- 
- header div a:hover{
-   background-color: #235834;
-}
-
- header div p{
-  
-    text-align: center;
-    margin-top: 8px;
-    margin-bottom: 12px;
-    font-size: 12px;
-    padding-right: 10px;
- }
-  */
-
-/* 
- nav button {
-   margin: .2rem 2vw;
-   background-color: transparent;
-   border: none;
-   font-size: 2rem;
-   color: #555;
-}
-
-nav {
-   background-color: #eee;
-}
-
-nav ul {
-   list-style-type: none;
-   padding: 0%;
-   margin: 0;
-}
-
-
-nav ul li a {
-   display: block;
-   padding: .8rem 2vw;
-   text-decoration: none;
-   color: #333;
-   border-top: 1px solid rgba(0, 0, 0, 0.5);
-
-}
-
-nav ul li.active a {  
-   background-color: rgba(0, 0, 0, 0.2);
-   color: #fff;
-}
-
-nav ul li a:hover {
-   background-color: rgba(0, 0, 0, 0.3);
-}
-
-nav ul {
-   display: none;
-}
-
-nav ul.open {
-   display: block;
-}
-
-#hamburgerBtn span:nth-child(1) {
-   display: block;
-}
-
-#hamburgerBtn span:nth-child(2) {
-   display: none;
-}
-
-#hamburgerBtn.open span:nth-child(1) {
-   display: none;
-}
-
-#hamburgerBtn.open span:nth-child(2) {
-   display: block;
-} */
-
 
 nav button {
    background-color: transparent;
@@ -246,19 +120,19 @@ nav ul li a {
    padding: .8rem 2vw;
    text-decoration: none;
    color: white;
-   border-top: thin solid rgba(255,255,255,0.1);
+   border-top: thin solid rgba(255, 255, 255, 0.1);
 }
 
 .contact {
-   border-bottom: thin solid rgba(255,255,255,0.1);
+   border-bottom: thin solid rgba(255, 255, 255, 0.1);
 }
 
 nav ul li a:hover {
-   background-color: rgba(0,0,0,0.3);
+   background-color: rgba(0, 0, 0, 0.3);
 }
 
 nav ul li.join a {
-   background-color: rgba(0,0,0,0.3);
+   background-color: rgba(0, 0, 0, 0.3);
    color: #fff;
 }
 
@@ -287,53 +161,32 @@ nav ul.open {
 }
 
 #dateToday {
-   background-color: rgba(0,0,0,0.3);
+   background-color: rgba(0, 0, 0, 0.3);
    padding: 2px;
    font-family: 'Nunito', sans-serif;
    color: white;
-   border: solid rgba(255,255,255,0.5);
+   border: solid rgba(255, 255, 255, 0.5);
    border-width: thin;
    text-align: center;
    font-size: 12px;
    width: 95%;
    margin: auto;
 }
- 
- /* #social_links {
-   display: flex;
-   align-self: center;
-   margin: 0;
-   padding: 5px;
 
+main {
+   display: block;
+   text-align: center;
+   background-color: rgb(128, 179, 115);
+   margin: 5px;
+   font-family: var(--paragraph-font);
+   font-size: 18px;
 }
 
-#social_links img {
-   width: 30px;
-   height: 30px;
-  
-}
-
-
- #title-container{
-    display: block;
-    width: 100%;
- } */
- 
- 
- main {
-    display: block;
-    text-align: center;
-    background-color: rgb(128, 179, 115);
-    margin: 5px;
-    font-family: var(--paragraph-font);
-    font-size: 18px;
- }
- 
- #mainHero {
+#mainHero {
    position: relative;
-   border: 3px solid ;
+   border: 3px solid;
    background-image: url('../images/mainPicc.jpg');
-   background-size:cover;
+   background-size: cover;
    background-position: center;
    height: 200px;
    display: grid;
@@ -344,9 +197,9 @@ nav ul.open {
    text-align: left;
    padding: 1rem;
    font-family: var(--heading-font);
- }
- 
- #Join {
+}
+
+#Join {
    grid-column: 4/5;
    grid-row: 6/6;
    font-size: 15px;
@@ -361,19 +214,19 @@ nav ul.open {
 }
 
 
-.heroBtnText{
+.heroBtnText {
    color: white;
-   text-decoration-line:none;
+   text-decoration-line: none;
 }
 
- #event {
-    
-    background-color: rgb(0, 32, 10);
-    margin-top: 5px;
-    height: 200px;
- }
- 
- #eventDiv {
+#event {
+
+   background-color: rgb(0, 32, 10);
+   margin-top: 5px;
+   height: 200px;
+}
+
+#eventDiv {
    padding-top: 1rem;
    font-size: 15px;
    color: white;
@@ -381,72 +234,80 @@ nav ul.open {
    height: 100%;
 }
 
- #weather {
+#weather {
    background-image: url('../images/weather.jpg');
-   background-size:fill;
-   /* background-position:center; */
-    margin-top: 2px;
-    color: white;
-    background-color: #eee;
- }
- 
- #news {
-    border: thin solid rgb(194, 194, 194);
-    background-color: rgb(0, 32, 10);
-    margin-top: 5px;
-    margin-bottom: 5px;
-    height: 200px;
-
- }
- 
-
- #newsDiv{
-   color: rgb(183, 243, 61);
-
-   padding: 0px 15px;
-}
-
-
-#latestNews{
-   font-family: var(--paragraph-font);
+   background-size: fill;
+   margin-top: 2px;
    color: white;
 }
 
- #spotlight-section {
-    border: thin solid rgb(194, 194, 194);
-    background-color: #003a13 ;
-    padding: 5px 5px 5px 5px;
- }
- 
- #spotlight1 {
-    border: thin solid rgb(194, 194, 194);
-    background-color: white;
-    margin-top: 0px;
-    height: 200px;
- }
- 
- #spotlight2 {
-    border: thin solid rgb(194, 194, 194);
-    background-color: white;
-    margin-top: 5px;
-    height: 200px;
- }
- 
- #spotlight3 {
-    display: none;
-    border: thin solid rgb(194, 194, 194);
-    background-color: white;
-    margin-top: 5px;
-    height: 200px;
- }
- 
+#news {
+   border: thin solid rgb(194, 194, 194);
+   background-color: rgb(0, 32, 10);
+   margin-top: 5px;
+   margin-bottom: 5px;
+   height: 200px;
+}
 
-
- #join {
-   /* display: none; */
-   /* border: 2px solid var(--green);  */
+#newsDiv {
    color: rgb(183, 243, 61);
-   background-color: #003a13 ;
+   padding: 0px 15px;
+}
+
+#latestNews {
+   font-family: var(--paragraph-font);
+   color: white;
+   font-size: 15px;
+}
+
+#spotlightSection {
+   border: 3px solid rgb(183, 243, 61);
+   background-color: rgb(0, 32, 10);
+   padding: 5px 5px 5px 5px;
+}
+
+#spotlight1 {
+   border: 1px solid rgb(255, 0, 0);;
+   margin-top: -5px;
+   height: 200px;
+   color: white;
+}
+
+#spotlight1 p{
+   font-size: 15px;
+}
+
+#sport_image {
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+#spotlight2 {
+   background-image: url('../images/code.png');
+   background-size: cover;
+   border: thin solid rgb(255, 0, 0);
+   background-color: #eee;
+   margin-top: 5px;
+   height: 200px;
+}
+
+#spotlight3 {
+   display: none;
+   border: thin solid rgb(194, 194, 194);
+   background-color: var(--background-color);
+
+   height: 200px;
+   color: white;
+}
+
+#accraCart p {
+   font-size: 15px;
+}
+
+
+#join {
+   color: rgb(183, 243, 61);
+   background-color: #003a13;
    margin-top: 5px;
    height: 200px;
    Padding: 25px;
@@ -461,71 +322,22 @@ nav ul.open {
    padding: 5px 15px;
    border-radius: 20px;
 }
-#join a:link { 
-   text-decoration: none; 
+
+#join a:link {
+   text-decoration: none;
    color: rgb(54, 228, 20);
 }
 
-#join a:hover { 
-   text-decoration: none; 
+#join a:hover {
+   text-decoration: none;
    color: var(--extralightgreen);
 }
 
 #join p {
    padding-top: 20px;
    color: white;
+   font-size: 15px;
 }
-
-
-
-/* 
- footer {
-    display: block;
-    font-family: var(--robo);
-    background-color: var(--black);
-    color: white;
-    text-align: center;
-    padding: 20px 0px 10px 0px;
-    background-color: #003a13;
- }
- 
- footer div div a {
-    color: rgb(255, 200, 200);
- }
- 
- footer div div a:visited{
-    color: rgb(225, 150, 255);
- }
- 
- footer div div a:hover{
-    color: rgb(4, 255, 0);
- }
- 
- footer img{
-    max-width: 100px;
-    max-height: 100px;
- }
- 
- footer a img {
-    max-width: 20px;
-    max-height: 20px;
- }
- 
- #sub-footer {
-    border-top: 2px solid var(--darkgreen);
-    padding-top: 25px;
- } */
- 
-
- /* footer img{
-   max-width: 100px;
-   max-height: 100px;
-}
-
-footer a img {
-   max-width: 20px;
-   max-height: 20px;
-} */
 
 #sub-footer {
    border-top: 2px solid var(--darkgreen);
@@ -535,9 +347,9 @@ footer a img {
 #page-container {
    position: relative;
    min-height: 100vh;
- }
- 
- #footerIMG{
+}
+
+#footerIMG {
    margin: 1rem;
    max-width: 110px;
    max-height: 110px;
@@ -545,14 +357,16 @@ footer a img {
    border-radius: 25px;
    background-color: #dbdbdb;
 }
+
 footer p {
    font-family: var(--paragraph-font);
 }
- 
-footer h4{
+
+footer h4 {
    font-family: var(--paragraph-font);
 }
- footer {
+
+footer {
    display: block;
    background-color: var(--background-color);
    color: rgb(219, 219, 219);
@@ -561,8 +375,7 @@ footer h4{
    font-size: 18px;
 }
 
- #page-container {
-    position: relative;
-    min-height: 100vh;
-  }
-  
+#page-container {
+   position: relative;
+   min-height: 100vh;
+}

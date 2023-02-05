@@ -26,113 +26,6 @@ nav ul li a {
 #dateToday {
     margin-top: 18px;
 }
-/* 
-  main {
-      display: grid;
-      grid-template-columns: 1fr 2fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-      height: 830px;
-  }
-
-  .featured {
-      grid-column: 2 / 3;
-      grid-row: 1 / span 2;
-  }
-
-  .right-column {
-      display: block;
-      grid-column-start: 3;
-      grid-row-start: 1;
-      grid-row-end: 4;
-      padding: 0;
-      padding-top: 16px;
-  }
-
-  .right-column div {
-      width: 95%;
-      margin: auto;
-      height: 32.5%;
-  }
-
-  .spotlight3 {
-      display: block;
-  }
-
-  .event {
-      grid-column: 1/1;
-  }
-
-  .weather {
-      grid-column: 1/1;
-      grid-row: 2/2;
-  }
-
-  .join_here {
-      grid-column: 1/1;
-      grid-row: 3/3;
-  }
-
-  .news-update {
-      grid-column: 2/3;
-      grid-row: 3/3;
-  }
-
-  .footer_info_medium {
-      display: none;
-  }
-
-  .footer_info_large {
-      display: block;
-      padding-top: 15px;
-      padding-bottom: -10px;
-  }
-
-} */
-
-
-/* @media only screen and (min-width: 65em){
- 
-    nav ul li a { 
-      padding: .5rem 1rem
-    }
-    
-    header h1 {
-      font-size: 35px;
-
-    }
-    
-    header button{
-      display: none;
-    }
-    
-    header {
-    color: rgb(255, 255, 255);
-    }
-    
-    nav ul#primaryNav {
-      display: flex;
-      justify-content: center;
-      text-align: center;  
-      
-    }
-    
- 
-    nav ul li a {
-      border: none;
-      padding: .5rem 1rem;
-    }
-    
-    nav ul li a:nth-child(1) {
-      border-left: 1px solid var(--black);
-    }
-    
-    nav ul li:nth-child(5){
-      border-bottom: none;
-    }
-    
-    nav ul li {
-      padding: .2rem 1rem;
-    } */
     
     main {
       display: grid;
@@ -142,7 +35,6 @@ nav ul li a {
     
     #mainHero {
       height: auto;
-      /* margin: 5px 2.5px 2.5px 2.5px; */
       grid-column-start: 2;
       grid-column-end: 4;
       grid-row-start: 1;
@@ -176,20 +68,23 @@ nav ul li a {
       grid-row-end: 3;
     }
     
-    #spotlight-section {
+    #spotlightSection{
       height: auto;
       display: grid;
       margin: 5px 5px 5px 2.5px;
       grid-template-columns: 1fr;
-      grid-column-start: 4;
-      grid-column-end: 4;
-      grid-row-start: 1;
-      grid-row-end: 4;
+      grid-column: 4/5;
+      grid-row: 1/4;
     }
     
     #spotlight1 {
       height: auto;
       margin: 2.5px 2.5px 2.5px 2.5px;
+    }
+
+    #wildesrSecOne {
+      padding-top: 20px;
+      padding-right: 2.5px;
     }
     
     #spotlight2 {
