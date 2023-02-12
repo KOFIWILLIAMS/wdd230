@@ -32,6 +32,16 @@ html {
 
 }
 
+.closeBtn {
+   margin-left: 10px;
+   text-decoration: none;
+}
+
+.closeBtn:hover {
+   text-decoration: underline;
+   cursor: pointer;
+
+}
 .clearfix:after {
    content: "";
    display: table;
