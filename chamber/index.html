@@ -17,7 +17,12 @@
 <body onload="getyear()">
     <div id="page-container">
         <div id="content-wrap">
-            <header>
+
+            <div id="topMessage">💚 Come join us for the chamber meet & greet
+                Wednesday at
+                7:00 p.m <span title="Close" class="closeBtn"> ❌</span></div>
+
+            <header class="clearfix">
                 <div class="main_header">
                     <div id="logo">
                         <img src="images/logo.jpg" alt=" my logo">
@@ -68,7 +73,7 @@
                         <h2>Winners Keep Winning</h2>
                         <p>Listen a full documentary below</p>
                         <br><br>
-                        <a href="#">Learn More ...</a>
+                        <a id="link" href="#">Learn More ...</a>
                     </div>
                 </div>
                 <div id="weather">
@@ -77,6 +82,7 @@
                             Partyly Cloudy</h2>
                         <hr>
                         <p>Wind Speed: 25km/h<br>Wind Chill: N/A</p>
+                        <span id="windChill"></span>
                     </div>
                 </div>
                 <div id="news">
@@ -119,7 +125,7 @@
                             <p>-We sell-<br>
                                 Quality computer hardware accessories</p>
                             <hr>
-                            <a href="#">Buy 2 get 1 free</a>
+                            <a id="link" href="#">Buy 2 get 1 free ....</a>
                         </div>
                     </div>
                 </div>
@@ -153,7 +159,9 @@
             </p>
         </footer>
     </div>
-    <script src="scripts/app.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/app.js"></script> 
+    
 </body>
 
 </html>

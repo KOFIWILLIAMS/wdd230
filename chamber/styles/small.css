@@ -6,6 +6,7 @@
    --paragraph-font: "PT Sans Narrow";
    --background-color: #003a13;
    --green-color: rgb(0, 184, 0);
+   --orangeGreen: rgb(183, 243, 61);
 }
 
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
@@ -19,6 +20,22 @@ html {
    -moz-box-sizing: border-box;
    -webkit-box-sizing: border-box;
    box-sizing: border-box;
+}
+
+#topMessage {
+   display: flex;
+   margin: 5px;
+   font-family: var(--paragraph-font);
+   padding: 10px;
+   justify-content: center;
+   background-color: var(--orangeGreen);
+
+}
+
+.clearfix:after {
+   content: "";
+   display: table;
+   clear: both;
 }
 
 header {
@@ -36,13 +53,13 @@ header {
 
 h1,
 h2 {
-   font-family: 'Rubik', sans-serif;
-   color: white;
+   font-family: var(--heading-font) ;
+   color: rgb(183, 243, 61);
 }
 
 p,
 nav {
-   font-family: 'Nunito', sans-serif;
+   font-family: var(--paragraph-font);
 }
 
 #logo {
@@ -168,7 +185,7 @@ nav ul.open {
    border: solid rgba(255, 255, 255, 0.5);
    border-width: thin;
    text-align: center;
-   font-size: 12px;
+   font-size: 17px;
    width: 95%;
    margin: auto;
 }
@@ -184,16 +201,16 @@ main {
 
 #mainHero {
    position: relative;
-   border: 3px solid;
-   background-image: url('../images/mainPicc.jpg');
+   border: 3px solid var(--background-color);
+   background-image: url('../images/small.jpg');
    background-size: cover;
    background-position: center;
    height: 200px;
    display: grid;
    grid-template-columns: 4fr;
    grid-template-rows: 5fr;
-   color: white;
-   font-size: larger;
+   color: red;
+   /* font-size: larger; */
    text-align: left;
    padding: 1rem;
    font-family: var(--heading-font);
@@ -213,10 +230,14 @@ main {
    border-radius: 25px;
 }
 
-
 .heroBtnText {
    color: white;
    text-decoration-line: none;
+   font-size:medium;
+}
+
+#link{
+   color:  rgb(183, 243, 61);
 }
 
 #event {
@@ -240,6 +261,13 @@ main {
    margin-top: 2px;
    color: white;
 }
+
+.weather span, .weather p{
+   color: rgb(228, 8, 8);
+   margin: 0;
+   margin-left: 10px;
+}
+
 
 #news {
    border: thin solid rgb(194, 194, 194);
@@ -267,7 +295,7 @@ main {
 }
 
 #spotlight1 {
-   border: 1px solid rgb(255, 0, 0);;
+   border: 1px solid rgb(183, 243, 61);
    margin-top: -5px;
    height: 200px;
    color: white;
@@ -285,7 +313,7 @@ main {
 #spotlight2 {
    background-image: url('../images/code.png');
    background-size: cover;
-   border: thin solid rgb(255, 0, 0);
+   border: thin solid rgb(183, 243, 61);
    background-color: #eee;
    margin-top: 5px;
    height: 200px;
@@ -293,7 +321,7 @@ main {
 
 #spotlight3 {
    display: none;
-   border: thin solid rgb(194, 194, 194);
+   border: thin solid rgb(183, 243, 61);
    background-color: var(--background-color);
 
    height: 200px;

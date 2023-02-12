@@ -15,4 +15,25 @@
         border: none;
         border-right: 1px solid rgba(0, 0, 0, 0.3);
     }   
+
+
+    #mainHero {
+        /* position: relative;
+        border: 3px solid var(--background-color); */
+        background-image: url('../images/medium.jpg');
+        /* background-size: cover;
+        background-position: center;
+        height: 200px;
+        display: grid;
+        grid-template-columns: 4fr;
+        grid-template-rows: 5fr;
+        color: red;
+        font-size: larger;
+        text-align: left;
+        padding: 1rem;
+        font-family: var(--heading-font); */
+     }
+     
+
+
  }
