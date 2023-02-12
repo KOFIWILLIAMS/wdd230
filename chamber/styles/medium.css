@@ -18,9 +18,12 @@
 
 
     #mainHero {
-        /* position: relative;
+        /* position: relative; 
+       position: relative;
         border: 3px solid var(--background-color); */
         background-image: url('../images/medium.jpg');
+        /* background-size: cover; */
+        /* background-position: center; */
         /* background-size: cover;
         background-position: center;
         height: 200px;

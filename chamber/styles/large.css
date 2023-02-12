@@ -112,6 +112,7 @@ nav ul li a {
       /* position: relative;
       border: 3px solid var(--background-color); */
       background-image: url('../images/large.jpg');
+      /* background-size:contain; */
       /* background-size: cover;
       background-position: center;
       height: 200px;
