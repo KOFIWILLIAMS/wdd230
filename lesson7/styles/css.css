@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@900&family=PT+Sans+Narrow&display=swap");
+
+:root {
+    /* change the values below to your chosen font(s) */
+    --heading-font: "M PLUS 1p";
+    --paragraph-font: "PT Sans Narrow";
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 50px;
+    font-family: var(--heading-font);
+}
+
+body {
+    text-align: center;
+    grid-column: 1;
+    background-color: rgb(215, 255, 207);
+    font-family: var(--paragraph-font);
+}
+
+.myImage {
+    display: grid;
+    grid-column: 1/1;
+}
+
+img {
+    border: 1px solid rgb(255, 21, 21);
+    margin: 5px;
+}
