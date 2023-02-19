@@ -417,3 +417,51 @@ footer {
    position: relative;
    min-height: 100vh;
 }
+
+
+
+
+
+
+
+/*################           CSS FOR DISCOVER PAGE           ############################ */
+.discoverMain{
+   display:grid;
+   grid-template-columns: auto;
+}
+
+.allImages{
+   /* width: 600px;
+   height: 400px; */
+
+   width: 420px;
+    height: 200px;
+
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   margin-top: 3px;
+   
+}
+
+.myImage{
+   background-color: var(--background-color);
+   border-radius: 20px;
+   margin-top: 2.5px;
+   margin-bottom: 2.5px;
+}
+.description{
+   margin-top: 4px;
+   margin-bottom: 5px;
+   text-align: center;
+   margin-left: 10px;
+   font-family: var(--paragraph-font);
+   color: var(--orangeGreen);
+   font-size: 16px;
+
+}
+
+.roundImage{
+   background-color: var(--orangeGreen);
+    border-radius: 20px;
+    margin-bottom: 2.5px;
+}
