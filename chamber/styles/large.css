@@ -110,24 +110,12 @@ nav ul li a {
     
 
     #mainHero {
-      /* position: relative;
-      border: 3px solid var(--background-color); */
+
       background-image: url('../images/large.jpg');
-      /* background-size:contain; */
-      /* background-size: cover;
-      background-position: center;
-      height: 200px;
-      display: grid;
-      grid-template-columns: 4fr;
-      grid-template-rows: 5fr;
-      color: red;
-      font-size: larger;
-      text-align: left;
-      padding: 1rem;
-      font-family: var(--heading-font); */
+    
    }
 
-/* discovery */
+
    .allImages{
     width: 600px;
     height: 400px;
@@ -147,6 +135,12 @@ nav ul li a {
   font-size: 16px;
   margin-left: 400px;
   margin-right: 400px;
+
+}
+
+.joinPage {
+  grid-column: 1/2;
+  grid-row: 3/4;
 
 }
     }

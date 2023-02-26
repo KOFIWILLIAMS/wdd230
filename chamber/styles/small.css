@@ -42,6 +42,7 @@ html {
    cursor: pointer;
 
 }
+
 .clearfix:after {
    content: "";
    display: table;
@@ -63,7 +64,7 @@ header {
 
 h1,
 h2 {
-   font-family: var(--heading-font) ;
+   font-family: var(--heading-font);
    color: rgb(183, 243, 61);
 }
 
@@ -243,11 +244,11 @@ main {
 .heroBtnText {
    color: white;
    text-decoration-line: none;
-   font-size:medium;
+   font-size: medium;
 }
 
-#link{
-   color:  rgb(183, 243, 61);
+#link {
+   color: rgb(183, 243, 61);
 }
 
 #event {
@@ -272,7 +273,8 @@ main {
    color: white;
 }
 
-.weather span, .weather p{
+.weather span,
+.weather p {
    color: rgb(228, 8, 8);
    margin: 0;
    margin-left: 10px;
@@ -311,7 +313,7 @@ main {
    color: white;
 }
 
-#spotlight1 p{
+#spotlight1 p {
    font-size: 15px;
 }
 
@@ -425,31 +427,28 @@ footer {
 
 
 /*################           CSS FOR DISCOVER PAGE           ############################ */
-.discoverMain{
-   display:grid;
+.discoverMain {
+   display: grid;
    grid-template-columns: auto;
 }
 
-.allImages{
-   /* width: 600px;
-   height: 400px; */
-
+.allImages {
    width: 420px;
-    height: 200px;
-
+   height: 200px;
    border-top-left-radius: 20px;
    border-top-right-radius: 20px;
    margin-top: 3px;
-   
+
 }
 
-.myImage{
+.myImage {
    background-color: var(--background-color);
    border-radius: 20px;
    margin-top: 2.5px;
    margin-bottom: 2.5px;
 }
-.description{
+
+.description {
    margin-top: 4px;
    margin-bottom: 5px;
    text-align: center;
@@ -460,8 +459,196 @@ footer {
 
 }
 
-.roundImage{
+.roundImage {
    background-color: var(--orangeGreen);
-    border-radius: 20px;
-    margin-bottom: 2.5px;
+   border-radius: 20px;
+   margin-bottom: 2.5px;
+}
+
+
+
+
+/* #################### Join Page ######################### */
+
+.join-page {
+   display: block;
+   margin: auto;
+   font-family: var(--paragraph-font);
+   box-sizing: border-box;
+   background-color: lightgrey;
+
+}
+
+
+.join-large-view,
+.form-title {
+   display: none;
+}
+
+.join-small-view{
+color: var(--orangeGreen);
+background-color: black;
+padding: 1rem;
+font-family: var(--paragraph-font);
+}
+
+form {
+   padding: 5px;
+   display: block;
+   margin-top: 5px;
+   text-align: start;
+}
+
+form fieldset {
+   margin: 2rem auto;
+   border: 2px solid black;
+   background-color: lightcyan;
+   border-radius: 10px;
+   padding: .5rem 2%;
+   box-shadow: grey;
+}
+
+form legend {
+   color: var(--background-color);
+   margin: 0 1rem;
+   padding: 0 .5rem;
+   font-weight: bold;
+   font-size: 18px;
+}
+
+form label span {
+   color: red;
+   font-weight: bold;
+}
+
+form label.top {
+   display: block;
+   padding-top: 1rem;
+   color: black;
+   font-size: 16px;
+   padding-bottom: 10px;
+   align-items: start;
+}
+
+form .beni-bellow em {
+   font-size: 14px;
+}
+
+form label.top input {
+   display: block;
+   font-size: 1rem;
+   border: solid 2px darkgrey;
+   border-radius: 4px;
+   padding: .75rem;
+   color: #555;
+   width: 100%;
+   max-width: 20rem;
+   background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+   display: block;
+   padding: .75rem 0;
+   text-align: start;
+}
+
+form input.submitBtn {
+   align-items: center;
+   border: none;
+   background-color: var(--background-color);
+   color: white;
+   border-radius: 1rem;
+   padding: .75rem 1rem;
+   margin: 0 0 2rem 2%;
+   width: 76%;
+   max-width: 15rem;
+   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.496);
+   cursor: pointer;
+}
+
+form .submitBtn:hover {
+   color: lightcyan;
+   transform: scale(1.04);
+}
+
+form textarea {
+   display: block;
+   border: solid 2px darkgrey;
+   background-color: rgba(0, 0, 0, 0.1);
+   padding: .75rem;
+}
+
+form label.top input:required {
+   border: rgb(246, 100, 100) solid 2px;
+}
+
+form label.top input:required:valid {
+   border: greenyellow solid 2px;
+}
+
+form label.top input:valid,
+form label.top textarea:valid {
+   border: greenyellow solid 2px;
+}
+
+.table-title {
+
+   font-family: var(--paragraph-font);
+   color: var(--background-color);
+   text-align: center;
+   margin: -10px auto;
+   padding: .5rem 3.4%;
+   margin-bottom: -29px;
+}
+
+table {
+   border-collapse: collapse;
+   margin: 0;
+   table-layout: fixed;
+   background-color: white;
+   border: 5px solid var(--color5);
+}
+
+table.benefits {
+   max-width: 95%;
+   display: block;
+   margin: 2rem auto;
+   padding: .5rem 2%;
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.354);
+}
+
+table caption {
+   padding: 10px;
+   caption-side: bottom;
+   font-size: 1rem;
+   font-family: var(--paragraph-font);
+}
+
+table th[scope='col'] {
+   border: 2px solid var(--color5);
+   padding: 5px;
+   background-color: var(--color1);
+   color: var(--background-color);
+   font-size: 16px;
+}
+
+table th[scope='row'] {
+   border: 2px solid var(--color1);
+   font-size: 16px;
+   padding: 10px;
+   text-align: left;
+}
+
+table td {
+   border: 2px solid var(--color1);
+   font-size: 18px;
+   padding: 5px;
+   text-align: center;
+   height: 30px;
+   width: 10%;
+}
+
+table tbody>tr:nth-child(even) {
+   background-color: #c6e8f89a
 }

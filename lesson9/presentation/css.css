@@ -1,8 +1,11 @@
-:root {
-    --lato: 'Lato', sans-serif;
-    --nunito: 'Nunito Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@900&family=PT+Sans+Narrow&display=swap");
 
+:root {
+    /* change the values below to your chosen font(s) */
+    --heading-font: "M PLUS 1p";
+    --paragraph-font: "PT Sans Narrow";
 }
+
 
 body {
     margin: 0 auto;
@@ -12,7 +15,7 @@ body {
 }
 
 header h1 {
-    font-family: var(--nunito);
+    font-family: var(--heading-font);
     color: white;
     text-align: center;
    background-color: goldenrod;
@@ -22,7 +25,7 @@ header h1 {
 }
 
 footer p {
-    font-family: var(--nunito);
+    font-family: var(--paragraph-font);
     color: white;
     text-align: center;
     background-color: goldenrod;
@@ -33,8 +36,14 @@ footer p {
 
 h2 {
     font-size: 26px;
-    font-family: var(--nunito);
-    color: var(--color2);
+    font-family: var(--heading-font);
+
+}
+
+h4{
+    font-family: var(--paragraph-font);
+    text-transform:uppercase;
+    font-size: large;
 }
 
 header nav ul {
@@ -54,7 +63,7 @@ header nav ul li a {
     text-align: center;
     color: white;
     font-size: 20px;
-    font-family: var(--lato);
+    font-family: var(--paragraph-font);
     text-decoration: none;
     padding: 10px;
 }
@@ -82,310 +91,4 @@ span {
 
 }
 
-.intro h2,
-.sec-page h2,
-.page-six h2,
-.page-ten h2,
-.page-twelve h2,
-.page-fifteen h2,
-.end h2 {
-    font-size: 50px;
-    text-align: center;
 
-}
-
-.codepen h1 {
-    font-size: 50px;
-    text-align: center;
-    font-family: var(--nunito);
-    color: var(--color2);
-}
-
-.page-five h3 {
-    font-size: 50px;
-    text-align: center;
-    font-family: var(--nunito);
-    color: var(--color2);
-    margin-bottom: -5px;
-    margin-top: 10px;
-}
-
-.page-four h2,
-.id-example h2 {
-    font-size: 50px;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
-
-}
-
-.intro h3,
-.sec-page h3,
-.end h3 {
-    font-size: 30px;
-    margin: 10px;
-    font-family: var(--lato);
-}
-
-.intro p,
-.sec-page p,
-.third-page p,
-.page-four p,
-.page-six p,
-.page-nine p,
-.page-ten p,
-.page-eleven p,
-.page-twelve p,
-.page-thirteen p,
-.page-fifteen p,
-.page-fourteen p,
-.page-sixteen p,
-h4,
-.codepen p {
-    font-size: 20px;
-    font-family: var(--lato);
-    margin: 5px;
-    line-height: 2.15;
-}
-
-.color {
-    color: white;
-}
-
-h4 strong.color {
-    background-color: green;
-}
-
-p strong.color {
-    background-color: purple;
-}
-
-.page-nine p {
-    margin-top: -5px;
-}
-
-.highlight-border {
-    background-color: yellow;
-    border: 5px solid var(--color1);
-    margin-top: -10px;
-}
-
-.intro,
-.sec-page,
-.page-four,
-.third-page,
-.page-five,
-.page-six,
-.page-nine,
-.page-ten,
-.page-eleven,
-.page-twelve,
-.page-thirteen,
-.page-fifteen,
-.page-thirteen,
-.page-fourteen,
-.page-sixteen,
-.end,
-.id-example {
-    max-width: 900px;
-    max-height: 1000px;
-    background-color: var(--body);
-    border: 5px solid var(--color1);
-
-
-}
-
-.codepen {
-    background-color: var(--body);
-    border: 5px solid var(--color1);
-    margin-top: 20px;
-}
-
-.code {
-    margin-top: 10px;
-}
-
-
-.next {
-    text-decoration: none;
-    color: #fff;
-    width: 300px;
-    text-align: center;
-    padding: 10px;
-    float: right;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.next a:hover {
-    background-color: #52b69a;
-    color: #184e71;
-}
-
-.prev {
-    text-decoration: none;
-    color: #fff;
-    width: 300px;
-    text-align: center;
-    padding: 10px;
-    float: left;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.prev a:hover {
-    background-color: #52b69a;
-    color: #184e71;
-}
-
-.pages {
-    margin-top: 20px;
-}
-
-.first-image,
-.second-image,
-.image-thirteen,
-.image-twelve,
-.page-fifteen img,
-.eleven,
-.id-example img {
-    margin: 30px auto;
-    border: 5px solid var(--color1);
-}
-
-.page-nine {
-    margin: 30px auto;
-    border: 5px solid var(--color1);
-    margin-bottom: -2px;
-}
-
-img.eleven {
-    margin-bottom: -15px;
-}
-
-.page-fourteen img {
-    margin: 20px auto;
-    border: 5px solid var(--color1);
-}
-
-.image-seven {
-    margin-bottom: -5px;
-    margin-top: -5px;
-}
-
-#image-eight {
-    margin-top: -5px;
-
-
-}
-
-.red {
-    color: red;
-}
-
-.black-on-gray-border {
-    background-color: lightgray;
-    border: 2px solid var(--color1);
-    font-family: var(--lato);
-    font-size: 18px;
-    margin-left: 5px;
-    margin-right: 460px;
-    text-align: left;
-    margin-top: -15px;
-}
-
-.centered,
-.six-image {
-    margin: 30px auto;
-    margin-bottom: -15px;
-    margin-top: -10px;
-}
-
-.red-on-gray {
-    background-color: lightgray;
-    color: red;
-    margin-top: -15px;
-    font-family: var(--lato);
-    font-size: 18px;
-    margin-left: 5px;
-    margin-right: 500px;
-    text-align: center;
-
-}
-
-.blue-on-gray {
-    background-color: lightgray;
-    color: blue;
-    margin-top: 5px;
-    font-family: var(--lato);
-    font-size: 18px;
-    margin-left: 5px;
-    margin-right: 500px;
-    text-align: center;
-}
-
-p.highlight-border2 {
-    background-color: yellow;
-    border: 5px solid var(--color1);
-}
-
-.highlight-border2 {
-    background-color: yellow;
-}
-
-.black-on-gray-border {
-    margin-top: 5px;
-}
-
-.video {
-    margin-left: 150px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-
-}
-
-div .button a:hover {
-    background-color: none;
-    border: none;
-}
-
-.codepen iframe {
-    margin-top: 30px;
-}
-
-.codepen a {
-    text-decoration: none;
-    font-size: 18px;
-    font-family: var(--lato);
-    margin: 5px;
-    line-height: 2.15;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-}
-
-.codepen a:hover {
-    background-color: #184d71bb;
-    color: white;
-}
-
-#bg-lightblue {
-    background-color: lightblue;
-    font-size: 20px;
-    font-family: var(--lato);
-    margin: 5px;
-    line-height: 2.15;
-}
-
-.link a {
-    text-decoration: none;
-    font-family: var(--lato);
-    display: block;
-    text-align: center;
-}
-
-.link a:hover {
-    color: var(--color3);
-    background-color: var(--color1);
-    padding: 10px;
-}

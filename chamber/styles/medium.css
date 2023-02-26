@@ -1,5 +1,12 @@
 @media only screen and (min-width: 35rem) {
 
+    :root{
+        --heading-font: "M PLUS 1p";
+        --paragraph-font: "PT Sans Narrow";
+        --background-color: #003a13;
+        --green-color: rgb(0, 184, 0);
+        --orangeGreen: rgb(183, 243, 61);
+    }
     nav button {
         display: none;
     }
@@ -19,19 +26,6 @@
 
     #mainHero {
         background-image: url('../images/medium.jpg');
-        /* background-size: cover; */
-        /* background-position: center; */
-        /* background-size: cover;
-        background-position: center;
-        height: 200px;
-        display: grid;
-        grid-template-columns: 4fr;
-        grid-template-rows: 5fr;
-        color: red;
-        font-size: larger;
-        text-align: left;
-        padding: 1rem;
-        font-family: var(--heading-font); */
      }
      
 
@@ -46,5 +40,77 @@
       
       }
 
+
+/* ############### join Page######################## */
+      .join-page {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto 80px;
+    }
+
+.top{
+    align-self: start;
+}
+
+    .join-small-view,
+    .beni-bellow em {display: none;}
+
+    form {
+        grid-column: 1/2;
+        grid-row: span 3;
+        align-self: flex-start;
+        margin-top: -43px;
+    }
+
+    .join-large-view
+    {
+        display: grid;
+        grid-column: 1/3;
+        color: --background-color;
+        text-shadow: 1px 1px 1px black;
+        text-align: center;
+        background-color: black;
+        padding: 15px;
+        margin-top: 5px;
+        font-family: var(--paragraph-font);
+        margin-bottom: 40px;
+        font-size: 24px;
+    }
+
+    .form-title {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 2/3;
+        text-align: center;
+        color: var(--background-color);
+        font-family: var(--paragraph-font);
+        margin: auto;
+    }
+
+    .table-title {
+        display: grid;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin: auto;
+    }
+
+    table.benefits {
+        width: 100%;
+        margin: .5rem auto;
+        grid-column: 2/3;
+        grid-row: span 3;
+        align-self: start;
+    }
+   
+    table th[scope='col'] {
+        border: 5px solid black;
+        padding: 15px 5px;
+        font-size: large;
+    }
+    
+    .first-col {
+        width: 15%;
+        height: 45px;
+    }
 
  }
