@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@900&family=PT+Sans+Narrow&display=swap");
 
 :root {
-    /* change the values below to your chosen font(s) */
     --heading-font: "M PLUS 1p";
     --paragraph-font: "PT Sans Narrow";
 }
@@ -9,7 +8,7 @@
 
 body {
     margin: 0 auto;
-    max-width: 1050px;
+    max-width: 1500px;
     padding: 20px;
     background-color: whitesmoke;
 }
@@ -29,6 +28,8 @@ h1 {
     font-family: var(--paragraph-font);
 }
 
+
+
 .cards {
     display: grid;
     grid-template-columns: 1fr;
@@ -36,22 +37,24 @@ h1 {
     grid-gap: 1rem;
     margin: auto;
     max-width: 400px;
-    background-color: rgb(255, 238, 238);
+    background-color: #003a13;
     padding: 1rem;
     border: solid black 1px;
     
 }
 
+
+
 section {
     width: 100%;
-    background-color: rgb(255, 221, 148);
+    background-color: rgb(56, 185, 73);
     margin: auto;
     border: solid black 1px;
 
 }
 
 section h2 {
-    color: rgb(133, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: var(--paragraph-font);
 
 }
@@ -71,4 +74,48 @@ footer p {
     font-size: 20px;
     padding: 10px;
     margin-top: 100px;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 560px) {
+    .cards{
+        grid-template-columns: 1fr 1fr;
+        max-width: 800px;
+
+    }
+
+    section img{
+        max-width: 80%;
+        object-fit: cover;
+        height: 400px;
+        width: 500px;
+        
+    }
+}
+
+@media only screen and (min-width: 1028px) {
+    .cards{
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1020px;
+
+    }
+
+    section img{
+        max-width: 70%;
+        object-fit: cover;
+        height: 300px;
+        width: 300px;
+        justify-items: end;
+        
+    }
+
+    section {
+        height: 500px;
+    }
+
 }
