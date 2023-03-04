@@ -1,0 +1,101 @@
+{
+    "businessDetails": [
+     
+      { 
+        "image": "", 
+        "name": "Rock City",      
+        "vision": "Your Ultimate Destination",
+        "address": "Nkwatian-Kwahu",
+        "mail": "reservations@rockcityhotelgh.com",
+        "website": "https://rockcityhotelgh.com/",
+        "membership": "Advance"
+        
+      },
+     
+      { 
+        "image": "", 
+        "name": "Ghana Commercial Bank",      
+        "vision": "To be the leading bank in all our markets.",
+        "address": "GCB Head Office P. O. Box 134. Accra",
+        "mail": "homgr@gcb.com.gh",
+        "website": "https://www.gcbbank.com.gh",
+        "membership": "Hihger"
+        
+      },
+      { 
+        "image": "", 
+        "name": "Bank of Ghana",      
+        "vision": "We formulate and implement monetary policy",
+        "address": "P.O. Box GP 2674, Accra",
+        "mail": "bogsecretary@bog.gov.gh",
+        "website": "https://www.bog.gov.gh/",
+        "membership": "Hihger"
+        
+      },
+      { 
+        "image": "", 
+        "name": "Consolidated Bank Ghana",      
+        "vision": "To be the most trusted bank in Ghana",
+        "address": "PMB CT 363, Cantonments, Accra",
+        "mail": "talktous@cbg.com.gh",
+        "website": "https://www.cbg.com.gh/",
+        "membership": "Standard"
+        
+      },
+
+      { 
+        "image": "", 
+        "name": "Fidelity Bank",      
+        "vision": "Driven to Exceed Expectations",
+        "address": "PMB CT 363, Cantonments, Accra",
+        "mail": "wecare@myfidelitybank.net",
+        "website": "https://www.fidelitybank.com.gh",
+        "membership": "Standard"
+        
+      },
+      { 
+        "image": "", 
+        "name": "Access Bank plc",      
+        "vision": "########################",
+        "address": "Box 892 Osu",
+        "mail": "contact@myaccess.com",
+        "website": "https://www.ghana.accessbankplc.com/",
+        "membership": "Standard"
+        
+      },
+      { 
+        "image": "", 
+        "name": "First Allied Savings & Loans Ltd",      
+        "vision": "to provide convenient access to efficient",
+        "address": "##############################",
+        "mail": "con@firstalliedghana.com",
+        "website": "http://www.firstalliedghana.com/",
+        "membership": "Basic"
+        
+      },
+      { 
+        "image": "", 
+        "name": "Groupe Nduom",      
+        "vision": "Groupe Nduom is a private business brand.",
+        "address": "##############################",
+        "mail": "contact@groupnduom.com",
+        "website": "https://groupenduom.com/",
+        "membership": "Basic"
+        
+      },
+
+      { 
+        "image": "", 
+        "name": "Rocksters Roofing Systems",      
+        "vision": "Nothing but the best",
+        "address": "Ga West District. Accra- Ghana",
+        "mail": "info@rockstersgroup.com",
+        "website": "www.rockstersgroup.com",
+        "membership": "Standard"
+        
+      }
+      
+   ]
+  }
+  
+  

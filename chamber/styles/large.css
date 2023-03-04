@@ -143,4 +143,19 @@ nav ul li a {
   grid-row: 3/4;
 
 }
+
+/* ############## directory ################## */
+.cards{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 1500px;
+
+}
+
+section img{
+  max-width: 80%;
+  object-fit: cover;
+  height: 400px;
+  width: 500px;
+  
+}
     }

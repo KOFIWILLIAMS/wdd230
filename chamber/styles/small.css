@@ -468,7 +468,7 @@ footer {
 
 
 
-/* #################### Join Page ######################### */
+/* ######### form ########### Join Page ######################### */
 
 .join-page {
    display: block;
@@ -651,4 +651,76 @@ table td {
 
 table tbody>tr:nth-child(even) {
    background-color: #c6e8f89a
+}
+
+/*################################ THANKS PAGE ######################################## */
+.present_main{
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   height: 50vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   background: #000000;
+   font-family: var(--paragraph-font);
+   font-size: medium;
+}
+
+p{color: white;}
+
+
+
+
+
+
+
+
+
+
+
+/* ##################### Directory Page ######################### */
+
+.discoverMain {
+   margin: 0 auto;
+   max-width: 1500px;
+   padding: 20px;
+   background-color: whitesmoke;
+}
+
+.cards {
+   display: grid;
+   grid-template-columns: 1fr;
+   text-align: center;
+   grid-gap: 1rem;
+   margin: auto;
+   max-width: 400px;
+   background-color: #003a13;
+   padding: 1rem;
+   border: solid black 1px;
+   
+}
+
+
+
+section {
+   width: 100%;
+   background-color: rgb(56, 185, 73);
+   margin: auto;
+   border: solid black 1px;
+
+}
+
+section h2 {
+   color: rgb(255, 255, 255);
+   font-family: var(--paragraph-font);
+
+}
+
+section img{
+   box-shadow: 8px 8px 15px black;
+   margin: 1rem;
+   max-width: 100%;
+   
 }
