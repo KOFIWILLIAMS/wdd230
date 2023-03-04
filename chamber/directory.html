@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winners World Chamber of Commerce | WDD-230</title>
+    <link rel="shortcut icon" href="images/icon.ico" type="imageicon">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <script src="scripts/fetchdata.js"></script>
+</head>
+
+<body onload="getyear()">
+    <div id="page-container">
+        <div id="content-wrap">
+
+            <div id="topMessage">
+                💚 Come join us for the chamber meet & greet Wednesday at 7:00 p.m 
+                <span title="Close" class="closeBtn"> ❌ </span></div>
+            <header class="clearfix">
+                <div class="main_header">
+                    <div id="logo">
+                        <img src="images/logo.webp" alt=" my logo">
+                        <div>
+                            <h1>WINNERS WORLD</h1>
+                            <h2>Chamber of Commerce</h2>
+                        </div>
+                    </div>
+                    <div id="social_media">
+                        <a href="https://www.facebook.com/"><img class="social-icons" src="images/fb.jpg"
+                                alt="facebook"></a>
+                        <a href="https://www.youtube.com/"><img class="social-icons" src="images/utb.jpg"
+                                alt="youtube"></a>
+                        
+                    </div>
+                    <nav>
+                        <button id="hamburgerBtn"><span>&#9776;</span><span>&#9776;</span></button>
+                    </nav>
+                </div>
+                <nav>
+                    <ul id="primaryNav">
+                        
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="join.html">Join</a></li>
+                        <li><a href="directory.html">Directory</a></li>
+                        <li ><a href="#">Contact</a></li>
+                        
+                    </ul>
+                </nav>
+                <div id="dateToday">
+                    <p>
+                        <span id="todayDate"></span>
+                    </p>
+                </div>
+            </header>
+            <main class="directoryMain">
+
+
+                
+
+                <h2 class="discover-heading">Business Directory</h2>
+                <!-- <div class="menu">
+                </div> -->
+        
+                <div class="cards"></div>
+
+
+
+
+            </main>
+        </div>
+        <footer id="footer">
+            <div id="footer-wrapper">
+                <img id="footerIMG" src="images/logo.webp" alt="logo">
+                <div id="contact-info">
+                    <h4>*** WINNERS WORLD CHAMBER OF COMMERCE ***</h4>
+                    <p>
+                        GPS ADDRESS (ER-4544-01) <br>
+                        Ghana-Accra<br>
+                        winnersworld1@gmail.com <br><br>
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <p id="sub-footer">
+                &copy; <span id="current_year"></span> .:|:. Asomani
+                Williams .:|:. Accra | Last Updated: <span id="last_updated"></span>
+            </p>
+        </footer>
+    </div>
+    <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/top.js"></script>
+    <script src="scripts/lazyloard.js"></script>
+</body>
+
+</html>
