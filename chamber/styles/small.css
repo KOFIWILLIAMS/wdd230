@@ -705,7 +705,7 @@ section {
    background-color: rgb(56, 185, 73);
    margin: auto;
    border: solid black 1px;
-   height:max-content;
+   /* height:max-content; */
 
 }
 
@@ -722,6 +722,10 @@ section img{
    
 }
 
+section p{
+   margin-left: 2px;
+   margin-right: 2px;
+}
 
 
 @media only screen and (min-width: 560px) {
