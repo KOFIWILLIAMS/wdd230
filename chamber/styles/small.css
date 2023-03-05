@@ -705,6 +705,7 @@ section {
    background-color: rgb(56, 185, 73);
    margin: auto;
    border: solid black 1px;
+   height: fit-content;
 
 }
 
