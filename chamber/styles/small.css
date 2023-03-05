@@ -681,7 +681,30 @@ p{color: white;}
 
 
 /* ##################### Directory Page ######################### */
-/*  
+
+
+
+.grid {
+   display: grid;
+   grid-template-columns: 1fr;
+   text-align: center;
+   grid-gap: 1rem;
+   margin: auto;
+   max-width: 400px;
+   background-color: #003a13;
+   padding: 1rem;
+   border: solid black 1px;
+   
+}
+
+
+
+/* 
+
+
+
+
+
 .directoryMain {
    margin: 0 auto;
    max-width: 1500px;

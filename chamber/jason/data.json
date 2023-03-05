@@ -13,7 +13,7 @@
       },
      
       { 
-        "image": "", 
+        "image": "images/BLogo/GCB.png", 
         "name": "Ghana Commercial Bank",      
         "vision": "To be the leading bank in all our markets.",
         "address": "GCB Head Office P. O. Box 134. Accra",
@@ -23,7 +23,7 @@
         
       },
       { 
-        "image": "", 
+        "image": "images/BLogo/BOG.png", 
         "name": "Bank of Ghana",      
         "vision": "We formulate and implement monetary policy",
         "address": "P.O. Box GP 2674, Accra",
@@ -33,7 +33,7 @@
         
       },
       { 
-        "image": "", 
+        "image": "images/BLogo/CBG.png", 
         "name": "Consolidated Bank Ghana",      
         "vision": "To be the most trusted bank in Ghana",
         "address": "PMB CT 363, Cantonments, Accra",
@@ -44,7 +44,7 @@
       },
 
       { 
-        "image": "", 
+        "image": "images/BLogo/fedelity.png", 
         "name": "Fidelity Bank",      
         "vision": "Driven to Exceed Expectations",
         "address": "PMB CT 363, Cantonments, Accra",
@@ -54,7 +54,7 @@
         
       },
       { 
-        "image": "", 
+        "image": "images/BLogo/access.png", 
         "name": "Access Bank plc",      
         "vision": "########################",
         "address": "Box 892 Osu",
@@ -64,7 +64,7 @@
         
       },
       { 
-        "image": "", 
+        "image": "images/BLogo/first.jpg", 
         "name": "First Allied Savings & Loans Ltd",      
         "vision": "to provide convenient access to efficient",
         "address": "##############################",
@@ -74,7 +74,7 @@
         
       },
       { 
-        "image": "", 
+        "image": "images/BLogo/induom.jpg", 
         "name": "Groupe Nduom",      
         "vision": "Groupe Nduom is a private business brand.",
         "address": "##############################",
@@ -85,7 +85,7 @@
       },
 
       { 
-        "image": "", 
+        "image": "images/BLogo/RS.jpg", 
         "name": "Rocksters Roofing Systems",      
         "vision": "Nothing but the best",
         "address": "Ga West District. Accra- Ghana",
