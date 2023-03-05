@@ -722,6 +722,56 @@ section img{
 }
 
 
+
+
+
+@media only screen and (min-width: 560px) {
+   .cards{
+       grid-template-columns: 1fr 1fr;
+       max-width: 800px;
+
+   }
+
+   section img{
+       max-width: 80%;
+       object-fit: cover;
+       height: 400px;
+       width: 500px;
+       
+   }
+}
+
+@media only screen and (min-width: 1028px) {
+   .grid{
+       grid-template-columns: 1fr 1fr 1fr;
+       max-width: 1020px;
+
+   }
+
+   section img{
+       max-width: 70%;
+       object-fit: cover;
+       height: 300px;
+       width: 300px;
+       justify-items: end;
+       
+   }
+
+   section {
+       height: 500px;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
 /* 
 
 
