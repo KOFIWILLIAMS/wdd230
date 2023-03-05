@@ -716,8 +716,9 @@ section h3 {
 
 section img{
    box-shadow: 8px 8px 15px black;
-   margin: 1rem;
+   margin: 0.5rem;
    max-width: 100%;
+   max-height: 100%;
    
 }
 
