@@ -1,4 +1,6 @@
-const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
+const file = 'jason/data.json';
+
+// const url = 'https://github.com/KOFIWILLIAMS/wdd230/blob/master/chamber/jason/data.json';
 
 // async function getProphetData() {
 //     const response = await fetch(url);
@@ -8,46 +10,55 @@ const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophet
 
 //   getProphetData();
 
-async function getProphetData() {
-  const response = await fetch(url);
+async function getBusinessDetails() {
+  const response = await fetch(file);
   const data = await response.json();
   //console.table(data.prophets);
-  displayProphets(data.prophets);
+  displayBusinessDetails(data.businessDetails)
+  
 }
 
-getProphetData();
+getBusinessDetails();
 
 
-const displayProphets = (prophets) => {
-  const cards = document.querySelector('div.cards'); // select the output container element
+const displayBusinessDetails = (businessDetails) => {
+  const myGrid = document.querySelector('div.grid'); // select the output container element
 
-  prophets.forEach((prophet) => {
+  businessDetails.forEach((businessData) => {
     // Create elements to add to the div.cards element
     let card = document.createElement('section');
-    let h2 = document.createElement('h2');
-    let portrait = document.createElement('img');
-    let date_birth = document.createElement('p');
-    let place_birth = document.createElement('p');
+      let h3 = document.createElement('h3');
+      let vision = document.createElement('p')
+      let pic = document.createElement('img');
+      let address = document.createElement('p')
+      let website = document.createElement('a')
+      let membership = document.createElement('p')
+      
+      
 
     // Build the h2 content out to show the prophet's full name - finish the template string
-    h2.textContent = `${prophet.name} ${prophet.lastname}`;
-    date_birth.textContent = `Date of Birth: ${prophet.birthdate}`
-    place_birth.textContent = `Place of Birth: ${prophet.birthplace}`
+    h3.textContent = `${businessData.name}`;
+      address.textContent = `${businessData.address}`
+      vision.textContent = `${businessData.vision}` 
+      website.textContent = `${businessData.website}`
+      membership.textContent = `Membership: ${businessData.membership}` 
 
     // Build the image portrait by setting all the relevant attribute
-    portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname}`);
-    portrait.setAttribute('loading', 'lazy');
-    portrait.setAttribute('width', '340');
-    portrait.setAttribute('height', '440');
+    pic.setAttribute('src', businessData.image);
+    pic.setAttribute('alt', `Portait of ${businessData.name}`);
+    pic.setAttribute('loading', 'lazy');
+    pic.setAttribute('width', '300');
+    pic.setAttribute('height', '300');
+    website.setAttribute('href', businessData.website)
 
     // Append the section(card) with the created elements
-    card.appendChild(h2);
-    card.appendChild(date_birth);
-    card.appendChild(place_birth);
-    card.appendChild(portrait);
-
-    cards.appendChild(card);
+    card.appendChild(h3);
+    card.appendChild(pic);
+    card.appendChild(vision) ;
+    card.appendChild(address) ;
+    card.appendChild(website)  ;
+    card.appendChild(membership);  
+      myGrid.appendChild(card);
   } // end of forEach loop
   )
 } // end of function expression

@@ -115,9 +115,9 @@
 
 
 /* directory ################## */
-    .cards{
+    .grid{
         grid-template-columns: 1fr 1fr;
-        max-width: 800px;
+        max-width: 35rem;
 
     }
 

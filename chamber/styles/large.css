@@ -145,17 +145,25 @@ nav ul li a {
 }
 
 /* ############## directory ################## */
-.cards{
+
+
+.grid{
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  max-width: 1500px;
+  max-width: 1020px; 
 
 }
 
 section img{
-  max-width: 80%;
+  max-width: 70%;
   object-fit: cover;
-  height: 400px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
+  justify-items: end;
   
 }
+
+section {
+  height: 500px;
+} 
+
     }

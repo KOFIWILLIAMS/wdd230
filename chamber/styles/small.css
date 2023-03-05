@@ -681,31 +681,47 @@ p{color: white;}
 
 
 /* ##################### Directory Page ######################### */
-
-.discoverMain {
+ 
+.directoryMain {
    margin: 0 auto;
    max-width: 1500px;
    padding: 20px;
    background-color: whitesmoke;
 }
 
-.cards {
+/* .grid {
    display: grid;
-   grid-template-columns: 1fr;
+   grid-template-columns:  1fr 1fr 1fr;
    text-align: center;
    grid-gap: 1rem;
    margin: auto;
-   max-width: 400px;
+   max-width: 500px;
    background-color: #003a13;
    padding: 1rem;
    border: solid black 1px;
    
+} 
+
+
+.dHeader{
+   font-family: var(--heading-font);
+   color: white;
+   text-align: center;
+   background-color: #003a13;
+   padding: 40px;
+   font-size: 37px;
+   margin-bottom: 50px;
 }
 
 
+.grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+}
+
 
 section {
-   width: 100%;
+   max-width: 250px;
    background-color: rgb(56, 185, 73);
    margin: auto;
    border: solid black 1px;
@@ -721,6 +737,6 @@ section h2 {
 section img{
    box-shadow: 8px 8px 15px black;
    margin: 1rem;
-   max-width: 100%;
+   max-width: 150px;
    
-}
+}  */

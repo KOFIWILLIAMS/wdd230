@@ -99,7 +99,7 @@ footer p {
 }
 
 @media only screen and (min-width: 1028px) {
-    .cards{
+    /* .cards{
         grid-template-columns: 1fr 1fr 1fr;
         max-width: 1020px;
 
@@ -116,6 +116,6 @@ footer p {
 
     section {
         height: 500px;
-    }
+    } */
 
 }
