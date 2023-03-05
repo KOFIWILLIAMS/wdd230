@@ -747,8 +747,8 @@ section img{
    }
 
    section img{
-       /* max-width: 70%; */
-       object-fit: cover;
+       max-width: 70%;
+       object-fit:contain;
        height: 300px;
        width: 300px;
        justify-items: end;
