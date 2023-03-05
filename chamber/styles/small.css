@@ -747,11 +747,11 @@ section img{
    }
 
    section img{
-       max-width: 70%;
+       /* max-width: 70%; */
        object-fit:contain;
        height: 300px;
        width: 300px;
-       justify-items: end;
+       /* justify-items: end; */
        
    }
 /* 
