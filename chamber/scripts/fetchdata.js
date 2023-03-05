@@ -47,8 +47,8 @@ const displayBusinessDetails = (businessDetails) => {
     pic.setAttribute('src', businessData.image);
     pic.setAttribute('alt', `Portait of ${businessData.name}`);
     pic.setAttribute('loading', 'lazy');
-    pic.setAttribute('width', '300');
-    pic.setAttribute('height', '300');
+    pic.setAttribute('width', '100');
+    pic.setAttribute('height', '100');
     website.setAttribute('href', businessData.website)
 
     // Append the section(card) with the created elements
