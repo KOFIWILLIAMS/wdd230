@@ -715,7 +715,7 @@ section h3 {
 }
 
 section img{
-   box-shadow: 8px 8px 15px black;
+   box-shadow: 4px 4px 10px rgb(78, 78, 78);
    margin: 1rem;
    max-width: 100%;
    
@@ -752,13 +752,13 @@ section img{
        object-fit:contain;
        height: 300px;
        width: 300px;
-       /* justify-items: end; */
+        justify-items: end; 
        
    }
-/* 
+
    section {
-       height: 500px;
-   } */
+       height: 100px;
+   }
 
 }
 
