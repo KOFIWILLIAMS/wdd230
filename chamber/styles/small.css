@@ -716,9 +716,8 @@ section h3 {
 
 section img{
    box-shadow: 8px 8px 15px black;
-   margin: 0.5rem;
-   max-width: 200px;
-   max-height: 200px;
+   margin: 1rem;
+   max-width: 100%;
    
 }
 
@@ -732,10 +731,10 @@ section img{
    }
 
    section img{
-       /* max-width: 80%; */
+       max-width: 80%;
        object-fit: cover;
-       max-width: 200px;
-       max-height: 200px;
+       height: 200px;
+       width: 200px;
        
    }
 }
@@ -751,8 +750,9 @@ section img{
        /* max-width: 70%; */
       
        object-fit:contain;
-       max-width: 200px;
-       max-height: 200px;
+       height: 300px;
+       width: 300px;
+       /* justify-items: end; */
        
    }
 /* 
