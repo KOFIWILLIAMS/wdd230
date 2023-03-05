@@ -52,8 +52,9 @@ const displayBusinessDetails = (businessDetails) => {
     website.setAttribute('href', businessData.website)
 
     // Append the section(card) with the created elements
-    card.appendChild(h3);
     card.appendChild(pic);
+    card.appendChild(h3);
+    
     card.appendChild(vision) ;
     card.appendChild(address) ;
     card.appendChild(website)  ;
