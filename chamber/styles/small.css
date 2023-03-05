@@ -752,7 +752,7 @@ section p{
    }
 
    section img{
-       /* max-width: 70%; */
+       max-width: 70%;
       
        object-fit:contain;
        height: 200px;
