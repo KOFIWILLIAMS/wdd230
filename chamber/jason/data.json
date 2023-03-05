@@ -2,7 +2,7 @@
     "businessDetails": [
      
       { 
-        "image": "images/BLogo/rock.png", 
+        "image": "images/BLogo/rock.jpg", 
         "name": "Rock City",      
         "vision": "Your Ultimate Destination",
         "address": "Nkwatian-Kwahu",
@@ -13,7 +13,7 @@
       },
      
       { 
-        "image": "images/BLogo/GBC.png", 
+        "image": "images/BLogo/GBC.jpg", 
         "name": "Ghana Commercial Bank",      
         "vision": "To be the leading bank in all our markets.",
         "address": "GCB Head Office P. O. Box 134. Accra",
@@ -54,7 +54,7 @@
         
       },
       { 
-        "image": "images/BLogo/access.png", 
+        "image": "images/BLogo/access.jpg", 
         "name": "Access Bank plc",      
         "vision": "########################",
         "address": "Box 892 Osu",

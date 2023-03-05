@@ -741,7 +741,7 @@ section img{
 
 @media only screen and (min-width: 1028px) {
    .grid{
-       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
        max-width: 1020px;
 
    }
@@ -834,3 +834,26 @@ section img{
    max-width: 150px;
    
 }  */
+
+
+#grid{
+   background-color: var(--background-color);
+   border-radius: 40px;
+   margin: 40px;
+}
+
+#grid img, 
+#list img{
+   margin: 3px;
+   max-width: 40px;
+}
+
+#list{
+   background-color: var(--background-color);
+   border-radius: 40px;
+   margin: 40px;
+}
+
+.menu{
+   padding: 5px;
+}
