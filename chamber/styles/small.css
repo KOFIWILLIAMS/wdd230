@@ -739,15 +739,16 @@ section img{
    }
 }
 
-@media only screen and (min-width: 1028px) {
+@media only screen and (min-width: 64rem) {
    .grid{
        grid-template-columns: 1fr 1fr 1fr 1fr;
-       max-width: 1000px;
+       max-width: 64rem;
 
    }
 
    section img{
        /* max-width: 70%; */
+      
        object-fit:contain;
        height: 300px;
        width: 300px;
