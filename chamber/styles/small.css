@@ -775,7 +775,8 @@ section p{
 
 
 
-#grid{
+#grid,
+#list{
    background-color: var(--background-color);
    border-radius: 40px;
    margin: 40px;
@@ -784,7 +785,7 @@ section p{
 #grid img, 
 #list img{
    margin: 3px;
-   max-width: 40px;
+   max-width: 50px;
 }
 
 #list{
