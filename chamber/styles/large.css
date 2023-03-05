@@ -146,10 +146,9 @@ nav ul li a {
 
 /* ############## directory ################## */
 
-
 .grid{
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  max-width: 1020px; 
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1020px;
 
 }
 
@@ -164,6 +163,6 @@ section img{
 
 section {
   height: 500px;
-} 
+}
 
     }
