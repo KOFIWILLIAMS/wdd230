@@ -685,7 +685,8 @@ p{color: white;}
 
 
 
-.grid {
+.grid,
+.list {
    display: grid;
    grid-template-columns: 1fr;
    text-align: center;

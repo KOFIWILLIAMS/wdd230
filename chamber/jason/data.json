@@ -56,7 +56,7 @@
       { 
         "image": "images/BLogo/access.jpg", 
         "name": "Access Bank plc",      
-        "vision": "########################",
+        "vision": "#################",
         "address": "Box 892 Osu",
         "mail": "contact@myaccess.com",
         "website": "https://www.ghana.accessbankplc.com/",
@@ -67,7 +67,7 @@
         "image": "images/BLogo/first.jpg", 
         "name": "First Allied Savings & Loans Ltd",      
         "vision": "to provide convenient access to efficient",
-        "address": "##############################",
+        "address": "###############",
         "mail": "con@firstalliedghana.com",
         "website": "http://www.firstalliedghana.com/",
         "membership": "Basic"
@@ -77,7 +77,7 @@
         "image": "images/BLogo/induom.jpg", 
         "name": "Groupe Nduom",      
         "vision": "Groupe Nduom is a private business brand.",
-        "address": "##############################",
+        "address": "################",
         "mail": "contact@groupnduom.com",
         "website": "https://groupenduom.com/",
         "membership": "Basic"
