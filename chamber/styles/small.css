@@ -728,10 +728,10 @@ section p{
 }
 
 
-@media only screen and (min-width: 560px) {
+@media only screen and (min-width:  35rem) {
    .grid{
        grid-template-columns: 1fr 1fr;
-       max-width: 600px;
+       max-width:  35rem;
 
    }
 
