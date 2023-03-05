@@ -732,10 +732,10 @@ section img{
    }
 
    section img{
-       max-width: 80%;
+       /* max-width: 80%; */
        object-fit: cover;
-       height: 200px;
-       width: 200px;
+       max-width: 200px;
+       max-height: 200px;
        
    }
 }
@@ -751,9 +751,8 @@ section img{
        /* max-width: 70%; */
       
        object-fit:contain;
-       height: 300px;
-       width: 300px;
-       /* justify-items: end; */
+       max-width: 200px;
+       max-height: 200px;
        
    }
 /* 
