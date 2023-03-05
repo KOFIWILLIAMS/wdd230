@@ -849,8 +849,7 @@ section img{
    margin: 40px;
 }
 
-#grid img, 
-#list img{
+#grid img{
    margin: 3px;
    max-width: 40px;
 }
@@ -868,7 +867,7 @@ section img{
 .list h2, .list p, .list a{
     margin-left: 10px;
 }
-article.list section{
+.list section{
     background-color: var(--color2);
     text-align: left;
     border: thin solid black;
