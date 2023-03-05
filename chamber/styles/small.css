@@ -699,6 +699,28 @@ p{color: white;}
 
 
 
+section {
+   width: 100%;
+   background-color: rgb(56, 185, 73);
+   margin: auto;
+   border: solid black 1px;
+
+}
+
+section h2 {
+   color: rgb(255, 255, 255);
+   font-family: var(--paragraph-font);
+
+}
+
+section img{
+   box-shadow: 8px 8px 15px black;
+   margin: 1rem;
+   max-width: 100%;
+   
+}
+
+
 /* 
 
 
