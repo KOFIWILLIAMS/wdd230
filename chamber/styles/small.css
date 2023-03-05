@@ -750,7 +750,7 @@ section img{
        /* max-width: 70%; */
       
        object-fit:contain;
-       height: 300px;
+       height: 200px;
        width: 300px;
         justify-items: end; 
        
