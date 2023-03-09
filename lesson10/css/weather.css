@@ -23,13 +23,13 @@ header h1 {
     margin-bottom: 50px;
 }
 
-h1 {
+h1, p, h2, figure {
     text-align: center;
     font-family: var(--paragraph-font);
 }
 
 
-
+/* 
 .cards {
     display: grid;
     grid-template-columns: 1fr;
@@ -41,9 +41,9 @@ h1 {
     padding: 1rem;
     border: solid black 1px;
     
-}
+} */
 
-
+/* 
 
 section {
     width: 100%;
@@ -64,7 +64,7 @@ section img{
     margin: 1rem;
     max-width: 100%;
     
-}
+} */
 
 footer p {
     font-family: var(--paragraph-font);
