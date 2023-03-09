@@ -8,8 +8,6 @@ const captionDesc = document.querySelector('figcaption');
 
 //const url = "https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=9182590c6a24d9a7b60fd2d065a2b4b";
 
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=0a70f34193d2de88ea8b87770197b319"
-
 
 async function apiFetch() {
   try {
