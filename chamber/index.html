@@ -1,187 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Winners World Chamber of Commerce | WDD-230</title>
-    <link rel="shortcut icon" href="images/icon.ico" type="imageicon">
-    
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/small.css" />
-    <link rel="stylesheet" href="styles/medium.css" />
-    <link rel="stylesheet" href="styles/large.css" />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Winners World Chamber of Commerce | WDD-230</title>
+        <link rel="shortcut icon" href="images/icon.ico" type="imageicon">
 
-<body onload="getyear()">
-    <div id="page-container">
-        <div id="content-wrap">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small.css" />
+        <link rel="stylesheet" href="styles/medium.css" />
+        <link rel="stylesheet" href="styles/large.css" />
+    </head>
 
-            <div id="topMessage">💚 Come join us for the chamber meet & greet
-                Wednesday at
-                7:00 p.m <span title="Close" class="closeBtn"> ❌</span></div>
+    <body onload="getyear()">
+        <div id="page-container">
+            <div id="content-wrap">
 
-            <header class="clearfix">
-                <div class="main_header">
-                    <div id="logo">
-                        <img src="images/logo.webp" alt=" my logo">
-                        <div>
-                            <h1>WINNERS WORLD</h1>
-                            <h2>Chamber of Commerce</h2>
+                <div id="topMessage">💚 Come join us for the chamber meet &
+                    greet
+                    Wednesday at
+                    7:00 p.m <span title="Close" class="closeBtn"> ❌</span></div>
+                <header class="clearfix">
+                    <div class="main_header">
+                        <div id="logo">
+                            <img src="images/logo.webp" alt=" my logo">
+                            <div>
+                                <h1>WINNERS WORLD</h1>
+                                <h2>Chamber of Commerce</h2>
+                            </div>
                         </div>
-                    </div>
-                    <div id="social_media">
-                        <a href="https://www.facebook.com/"><img class="social-icons" src="images/fb.jpg"
-                                alt="facebook"></a>
-                        <a href="https://www.youtube.com/"><img class="social-icons" src="images/utb.jpg"
-                                alt="youtube"></a>
-                        <!-- <a href="https://www.youtube.com/"><img class="social-icons" src="images/wtsapp.jpg"
+                        <div id="social_media">
+                            <a href="https://www.facebook.com/"><img
+                                    class="social-icons" src="images/fb.jpg"
+                                    alt="facebook"></a>
+                            <a href="https://www.youtube.com/"><img
+                                    class="social-icons" src="images/utb.jpg"
+                                    alt="youtube"></a>
+                            <!-- <a href="https://www.youtube.com/"><img class="social-icons" src="images/wtsapp.jpg"
                                 alt="youtube"></a>
                         <a href="https://www.linkedin.com/"><img class="social-icons" src="images/ig.jpg"
                                 alt="linkedin"></a> -->
+                        </div>
+                        <nav>
+                            <button id="hamburgerBtn"><span>&#9776;</span><span>&#9776;</span></button>
+                        </nav>
                     </div>
                     <nav>
-                        <button id="hamburgerBtn"><span>&#9776;</span><span>&#9776;</span></button>
+                        <ul id="primaryNav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="discover.html">Discover</a></li>
+                            <li><a href="join.html">Join</a></li>
+                            <li><a href="directory.html">Directory</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
                     </nav>
-                </div>
-                <nav>
-                    <ul id="primaryNav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="discover.html">Discover</a></li>
-                        <li><a href="join.html">Join</a></li>
-                        <li><a href="directory.html">Directory</a></li>
-                        <li ><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-                <div id="dateToday">
-                    <p>
-                        <span id="todayDate"></span>
-                    </p>
-                </div>
-            </header>
-
-            <main class="indexMain">
-                
-                <div id="mainHero">
-                    <div id="heroH3Div">
-                        <h3>Wellcome to Winners World</h3>
+                    <div id="dateToday">
+                        <p>
+                            <span id="todayDate"></span>
+                        </p>
                     </div>
-                    <div id="Join">
-                        <a href="index.html" class="heroBtnText">Join the Chamber ... </a>
-                    </div>
-                </div>
-                <div id="event">
-                    <div id="eventDiv">
-                        <h2>Winners Keep Winning</h2>
-                        <p>Listen a full documentary below</p>
-                        <br><br>
-                        <a id="link" href="#">Learn More ...</a>
-                    </div>
-                </div>
-                <div id="weather">
-                    <div id="weatherDiv">
-                        <h2>Weather </h2>
+                </header>
 
-                        <!-- <h2 class="h2weather">Weather</h2> -->
-                        <figure>
-                            <img src="" alt="" id="weathericon" />
-                        </figure>
-                        <p><strong id="currentTemp"> </strong> | <span id="currentCondition"></span></p>
-                        <p class="currentcondition"><span id="currentCondition"></span></p>
-                        <hr>
-                        
- 
+                <main class="indexMain">
 
-                        <!-- <p>Temperature: <span id="temperature">60</span>°F</p><br>
+                    <div id="mainHero">
+                        <div id="heroH3Div">
+                            <h3>Wellcome to Winners World</h3>
+                        </div>
+                        <div id="Join">
+                            <a href="index.html" class="heroBtnText">Join the
+                                Chamber ... </a>
+                        </div>
+                    </div>
+                    <div id="event">
+                        <div id="eventDiv">
+                            <h2>Winners Keep Winning</h2>
+                            <p>Listen a full documentary below</p>
+                            <br><br>
+                            <a id="link" href="#">Learn More ...</a>
+                        </div>
+                    </div>
+                    <div id="weather">
+                        <div id="weatherDiv">
+                            <h2>Weather </h2>
+
+                            <!-- <h2 class="h2weather">Weather</h2> -->
+                            <figure>
+                                <img src="" alt="" id="weathericon" />
+                            </figure>
+                            <hr>
+                            <p><strong id="currentTemp"> </strong> | <span
+                                    id="currentCondition"></span> | <span
+                                    id="windSpeed"></span> m/h</p>
+                            <!-- <p class="currentcondition"><span id="currentCondition"></span></p> -->
+                            <!-- <p>Temperature: <span id="temperature">60</span>°F</p><br>
                     <p>Wind Speed: <span id="windSpeed">5 </span>mph</p><br>
                     <span id="windChill"></span> -->
-                        <!-- <p>Wind Speed: 25km/h<br>c</p>
+                            <!-- <p>Wind Speed: 25km/h<br>c</p>
                         <span id="windChill"></span> -->
-                        <p class="speed">Wind Speed: <span id="windSpeed"></span> km/h</p>
-                         
-                        <p>Wind Speed: <span id="windChill"></span>m/h</p>
-                        
+                            <!-- <p class="speed">Wind Speed: <span id="windSpeed"></span> km/h</p> -->
+                            <!-- <p>Wind Chill: <span id="windChill"></span>m/h</p> -->
+                        </div>
                     </div>
-                </div>
-                <div id="news">
-                    <div id="newsDiv">
-                        <h3>Latest News</h3>
-                        <p id="latestNews">
-                            <br>
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna
-                            aliqua. Nisl tincidunt
-                            eget nullam non. Quis hendrerit dolor magna eget
-                            est lorem ipsum dolor
-                            sit. Volutpat odio facilisis mauris sit amet
-                            massa...
+                    <div id="news">
+                        <div id="newsDiv">
+                            <h3>Latest News</h3>
+                            <p id="latestNews">
+                                <br>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna
+                                aliqua. Nisl tincidunt
+                                eget nullam non. Quis hendrerit dolor magna eget
+                                est lorem ipsum dolor
+                                sit. Volutpat odio facilisis mauris sit amet
+                                massa...
+                            </p>
+                        </div>
+                    </div>
+                    <div id="spotlightSection">
+
+                        <div id="spotlight1">
+
+                            <div class="sport_image">
+                                <h3>wWw Delivery Services</h3>
+                                <img src="images/bus.png" alt="Delivery bus ">
+                                <p>Excellence in Delivery</p>
+                            </div>
+                        </div>
+                        <div id="spotlight2">
+                            <div id="iceCreamDiv">
+                                <h3>WeDev </h3>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet....</p>
+                                <hr>
+                            </div>
+                        </div>
+                        <div id="spotlight3">
+                            <div id="accraCart">
+                                <h3>Accra Cart</h3>
+                                <p>-We sell-<br>
+                                    Quality computer hardware accessories</p>
+                                <hr>
+                                <a id="link" href="#">Buy 2 get 1 free ....</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="join">
+                        <div class="joinBtn">
+                            <a href="index.html">Join us!</a>
+                        </div>
+                        <p>
+                            Kindly join the winning team today
+                        </p>
+                        <h3>WINNERS WORLD</h3>
+                    </div>
+                </main>
+            </div>
+            <footer id="footer">
+                <div id="footer-wrapper">
+                    <img id="footerIMG" src="images/logo.webp" alt="logo">
+                    <div id="contact-info">
+                        <h4>*** WINNERS WORLD CHAMBER OF COMMERCE ***</h4>
+                        <p>
+                            GPS ADDRESS (ER-4544-01) <br>
+                            Ghana-Accra<br>
+                            winnersworld1@gmail.com <br><br>
                         </p>
                     </div>
                 </div>
-                <div id="spotlightSection">
-
-                    <div id="spotlight1">
-
-                        <div class="sport_image">
-                            <h3>wWw Delivery Services</h3>
-                            <img src="images/bus.png" alt="Delivery bus ">
-                            <p>Excellence in Delivery</p>
-                        </div>
-                    </div>
-                    <div id="spotlight2">
-                        <div id="iceCreamDiv">
-                            <h3>WeDev </h3>
-                            <hr>
-                            <p>Lorem ipsum dolor sit amet....</p>
-                            <hr>
-                        </div>
-                    </div>
-                    <div id="spotlight3">
-                        <div id="accraCart">
-                            <h3>Accra Cart</h3>
-                            <p>-We sell-<br>
-                                Quality computer hardware accessories</p>
-                            <hr>
-                            <a id="link" href="#">Buy 2 get 1 free ....</a>
-                        </div>
-                    </div>
-                </div>
-                <div id="join">
-                    <div class="joinBtn">
-                        <a href="index.html">Join us!</a>
-                    </div>
-                    <p>
-                        Kindly join the winning team today
-                    </p>
-                    <h3>WINNERS WORLD</h3>
-                </div>
-            </main>
+                <hr>
+                <p id="sub-footer">
+                    &copy; <span id="current_year"></span> .:|:. Asomani
+                    Williams .:|:. Accra | Last Updated: <span
+                        id="last_updated"></span>
+                </p>
+            </footer>
         </div>
-        <footer id="footer">
-            <div id="footer-wrapper">
-                <img id="footerIMG" src="images/logo.webp" alt="logo">
-                <div id="contact-info">
-                    <h4>*** WINNERS WORLD CHAMBER OF COMMERCE ***</h4>
-                    <p>
-                        GPS ADDRESS (ER-4544-01) <br>
-                        Ghana-Accra<br>
-                        winnersworld1@gmail.com <br><br>
-                    </p>
-                </div>
-            </div>
-            <hr>
-            <p id="sub-footer">
-                &copy; <span id="current_year"></span> .:|:. Asomani
-                Williams .:|:. Accra | Last Updated: <span id="last_updated"></span>
-            </p>
-        </footer>
-    </div>
-    <script src="scripts/windchill.js" defer></script>
-    <script src="scripts/app.js"></script> 
-    <script src="scripts/top.js"></script> 
-    <script src="scripts/weather.js"></script>
-</body>
+        <script src="scripts/windchill.js" defer></script>
+        <script src="scripts/app.js"></script>
+        <script src="scripts/top.js"></script>
+        <script src="scripts/weather.js"></script>
+    </body>
 
 </html>
