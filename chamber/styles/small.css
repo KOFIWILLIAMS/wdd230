@@ -505,7 +505,7 @@ form fieldset {
    background-color: lightcyan;
    border-radius: 10px;
    padding: .5rem 2%;
-   box-shadow: grey;
+   box-shadow: rgb(207, 204, 204);
 }
 
 form legend {
