@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@900&family=PT+Sans+Narrow&display=swap");
+
+:root {
+    /* change the values below to your chosen font(s) */
+    --heading-font: "M PLUS 1p";
+    --paragraph-font: "PT Sans Narrow";
+    --backrround-Color:darkslategray;
+}
+
+
+
+header h1 {
+    text-decoration: none;
+    margin: 0;
+    font-size: 1.3rem;
+    color: white;
+}
+
+header h2 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 1rem;
+    color: white;
+}
+
+header a{
+    text-decoration: none;
+}
+header {
+    
+    display:grid;
+    background-color: var(--backrround-Color);
+    padding: 1rem;
+    font-family: var(--paragraph-font);
+}
+
+header img {
+    float: left;
+    margin-right: 10px;
+    width: 40px;
+}
+
+
+  .my_logo {
+    width: 10%;
+    height: 15%;
+    padding: 3px;
+    border-radius: 25px;
+    background-color: #dbdbdb;
+  }  
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1px;
+    margin-bottom: -40px;
+}
+
+nav ul li a {
+    display: block;
+    color: var(--backrround-Color);
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: start;
+    padding-left: 10%;
+}
+
+
+nav ul li a:hover {
+    background-color: gray;
+}
+
+nav ul li.active a {
+    background-color: var(--backrround-Color);
+    color: #ffffff;
+}
+
+
+#main {
+    padding: 1rem;
+} 
+
+hr{
+  background-color: var(--backrround-Color);  
+  height: 10%;
+  
+}
+
+
+p {
+    font-family: var(--paragraph-font);
+    font-size: 18px;
+}
+
+#social_media {
+    display:block;
+    margin: 0;
+    padding: 10px;
+    margin-top: 10px;
+    float:right;
+    margin-right: 6%;
+ }
+ 
+ #social_media img {
+    width: 25px;
+    height: 25px;
+    /* margin-left: 8px; */
+    border-radius: 15px;
+    background-color: #dbdbdb;
+    padding: 1px;
+ }
+
+
+
+/*##################### index content ######################## */
+
+#card1 {
+    background-image: url('../images/code.png');
+    background-size: cover;
+    border: thin solid rgb(183, 243, 61);
+    background-color: #eee;
+    margin-top: 5px;
+    height: 200px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: var(--backrround-Color);
+    color: rgb(236, 236, 236);
+    text-align: center;
+    padding: 1rem;
+    font-size: 14px;
+}
