@@ -1,137 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Winners World Chamber of Commerce | WDD-230</title>
-        <link rel="shortcut icon" href="images/icon.ico" type="imageicon">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winners World Chamber of Commerce | WDD-230</title>
+    <link rel="shortcut icon" href="images/icon.ico" type="imageicon">
 
-        <link rel="stylesheet" href="styles/normalize.css">
-        <link rel="stylesheet" href="styles/small.css" />
-        <link rel="stylesheet" href="styles/medium.css" />
-        <link rel="stylesheet" href="styles/large.css" />
-    </head>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+</head>
 
-    <body onload="getyear()">
-        <div id="page-container">
-            <div id="content-wrap">
+<body onload="getyear()">
+    <div id="page-container">
+        <div id="content-wrap">
 
-                <div id="topMessage">💚 Come join us for the chamber meet &
-                    greet
-                    Wednesday at
-                    7:00 p.m <span title="Close" class="closeBtn"> ❌</span></div>
-                <header class="clearfix">
-                    <div class="main_header">
-                        <div id="logo">
-                            <img src="images/logo.webp" alt=" my logo">
-                            <div>
-                                <h1>WINNERS WORLD</h1>
-                                <h2>Chamber of Commerce</h2>
-                            </div>
+            <div id="topMessage">💚 Come join us for the chamber meet &
+                greet
+                Wednesday at
+                7:00 p.m <span title="Close" class="closeBtn"> ❌</span></div>
+            <header class="clearfix">
+                <div class="main_header">
+                    <div id="logo">
+                        <img src="images/logo.webp" alt=" my logo">
+                        <div>
+                            <h1>WINNERS WORLD</h1>
+                            <h2>Chamber of Commerce</h2>
                         </div>
-                        <div id="social_media">
-                            <a href="https://www.facebook.com/"><img
-                                    class="social-icons" src="images/fb.jpg"
-                                    alt="facebook"></a>
-                            <a href="https://www.youtube.com/"><img
-                                    class="social-icons" src="images/utb.jpg"
-                                    alt="youtube"></a>
-                            <!-- <a href="https://www.youtube.com/"><img class="social-icons" src="images/wtsapp.jpg"
+                    </div>
+                    <div id="social_media">
+                        <a href="https://www.facebook.com/"><img class="social-icons" src="images/fb.jpg"
+                                alt="facebook"></a>
+                        <a href="https://www.youtube.com/"><img class="social-icons" src="images/utb.jpg"
                                 alt="youtube"></a>
-                        <a href="https://www.linkedin.com/"><img class="social-icons" src="images/ig.jpg"
-                                alt="linkedin"></a> -->
-                        </div>
-                        <nav>
-                            <button id="hamburgerBtn"><span>&#9776;</span><span>&#9776;</span></button>
-                        </nav>
                     </div>
                     <nav>
-                        <ul id="primaryNav">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="discover.html">Discover</a></li>
-                            <li><a href="join.html">Join</a></li>
-                            <li><a href="directory.html">Directory</a></li>
-                            <li ><a href="#">Contact</a></li>
-                        </ul>
+                        <button id="hamburgerBtn"><span>&#9776;</span><span>&#9776;</span></button>
                     </nav>
-                    <div id="dateToday">
-                        <p>
-                            <span id="todayDate"></span>
-                        </p>
-                    </div>
-                </header>
+                </div>
+                <nav>
+                    <ul id="primaryNav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="join.html">Join</a></li>
+                        <li><a href="directory.html">Directory</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div id="dateToday">
+                    <p>
+                        <span id="todayDate"></span>
+                    </p>
+                </div>
+            </header>
 
 
 
-                <main class="join-page">
-                    <h1 class="join-large-view">Unlock a host of benefits by
-                        becoming a member of our Chamber</h1>
-                    <h2 class="join-small-view">Become a Member Today</h2>
-                    <h2 class="form-title">Join Us Today</h2>
-                    <form action="thanks.html" method="get">
+            <main class="join-page">
 
-                        <fieldset>
-                            <legend>Membership Information</legend>
-                            <label class="top">First Name<span>*</span> <input
-                                    type="text" name="fname" required
-                                    placeholder="First Name" id="fname"
-                                    autofocus></label>
-                            <label class="top">Last Name<span>*</span> <input
-                                    type="text" name="lname" required
-                                    placeholder="Last Name" id="lname"></label>
-                            <label class="top">Email<span>*</span> <input
-                                    type="email" name="email" required
-                                    placeholder="winnersworld1@gmail.com"></label>
-                            <label class="top">Cell Phone<span>*</span> <input
-                                    type="tel" name="phone" required
-                                    pattern="^(\d+|\d+-\d+)$" placeholder="+23300000000" title="Accept only numbers and
-                                    dashes"></label>
-                            <label class="top">Business Name<span>*</span>
-                                <input type="text" name="busName" required
-                                    title="Please enter the business name"></label>
-                            <label class="top">Business Position <input
-                                    type="text" name="position"
-                                    pattern="[a-zA-Z\s-]{7,}"
-                                    title="Please enter a valid business
-                                    position title with at least 7 alphabetical
-                                    characters, spaces, or hyphens."
-                                    placeholder="Big,Small,medium; min 7
-                                    characters"></label>
-                        </fieldset>
 
-                        <fieldset>
-                            <legend class="beni-bellow">Select Membership Level
-                                <em>(Benefits bellow)</em></legend>
-                            <label class="sbs"><input type="radio"
-                                    name="membership"> Basic
-                                Membership - No fee</label>
-                            <label class="sbs"><input type="radio"
-                                    name="membership"> Standard Membership - $100
-                                yearly</label>
-                         
-                            <label class="sbs"><input type="radio"
-                                    name="membership" checked> Advance -
-                                $500 yearly</label>
-                        </fieldset>
+                <h1 class="join-large-view">Unlock a host of benefits by
+                    becoming a member of our Chamber</h1>
+                <h2 class="join-small-view">Become a Member Today</h2>
+                <h2 class="form-title">Join Us Today</h2>
+                <form action="thanks.html" method="get">
 
-                        <fieldset>
-                            <legend>Describe your Business</legend>
-                            <label class="top">Briefly describe your business:<textarea
-                                    name="bus-description" cols="33" rows="5"
-                                    title="Please enter the business description
-                                    here..."></textarea></label>
-                        </fieldset>
+                    <fieldset>
+                        <legend>Membership Information</legend>
+                        <label class="top">First Name<span>*</span> <input type="text" name="fname" required
+                                placeholder="First Name" id="fname" autofocus></label>
+                        <label class="top">Last Name<span>*</span> <input type="text" name="lname" required
+                                placeholder="Last Name" id="lname"></label>
+                        <label class="top">Email<span>*</span> <input type="email" name="email" required
+                                placeholder="winnersworld1@gmail.com"></label>
+                        <label class="top">Cell Phone<span>*</span> <input type="tel" name="phone" required
+                                pattern="^(\d+|\d+-\d+)$" placeholder="+23300000000" title="only numbers"></label>
+                        <label class="top">Business Name<span>*</span>
+                            <input type="text" name="busName" required title="Please enter the business name"></label>
+                        <label class="top">Business Position <input type="text" name="position"
+                                pattern="[a-zA-Z\s-]{7,}" title="position " placeholder="large scale ,Small scale,medium
+                                    "></label>
+                        <label class="top">Briefly describe your business:<textarea name="bus-description" cols="35"
+                                rows="3" title="Please enter the business description
+                                            here..."></textarea></label>
+                    </fieldset>
 
-                        <label hidden>localTime<input type="datetime-local"
-                                name="loaded_at" value="2023-02-23T14:30:00"></label>
-                        <input class="submitBtn" type="submit" value="Become a Member">
-                    </form>
+
+                    <fieldset>
+                        <legend class="beni-bellow">Select Membership Level
+
+                        </legend>
+                        <select id="membership_level" name="membership_level">
+                            <option value="NP Membership">Basic
+                                Membership - No fee </option>
+                            <option value="Bronze Membership">Standard Membership - $100
+                                yearly</option>
+                            <option value="Silver Membership">Advance -
+                                $500 yearly</option>
+
+                        </select>
+
+                    </fieldset>
 
                     <h2 class="table-title">Membership Benefits</h2>
                     <table class="benefits">
-                        <caption>Table 1: Membership Feature Comparison</caption>
                         <thead>
                             <tr>
                                 <th scope="col" class="first-col">Membership
@@ -147,88 +122,83 @@
                                 <th scope="row">Best Profile</th>
                                 <td>✔️</td>
                                 <td>✔️</td>
-                                <!-- <td>✔️</td> -->
                                 <td>✔️</td>
                             </tr>
                             <tr>
                                 <th scope="row">Chamber News </th>
                                 <td>✔️</td>
                                 <td>✔️</td>
-                               
+
                                 <td>✔️</td>
                             </tr>
                             <tr>
                                 <th scope="row">Website Link</th>
                                 <td>✔️</td>
                                 <td>✔️</td>
-                               
+
                                 <td>✔️</td>
                             </tr>
                             <tr>
                                 <th scope="row">Amazing Deals</th>
                                 <td>❌</td>
                                 <td>✔️</td>
-                               
                                 <td>✔️</td>
                             </tr>
                             <tr>
                                 <th scope="row">WhatsApp</th>
                                 <td>❌</td>
                                 <td>✔️</td>
-                               
                                 <td>✔️</td>
                             </tr>
                             <tr>
                                 <th scope="row">Email</th>
                                 <td>❌</td>
                                 <td>❌</td>
-                              
                                 <td>✔️</td>
                             </tr>
                             <tr>
                                 <th scope="row">Phone Call</th>
                                 <td>❌</td>
                                 <td>❌</td>
-                              
                                 <td>✔️</td>
                             </tr>
                             <tr>
                                 <th scope="row">Remove Ads</th>
                                 <td>❌</td>
                                 <td>❌</td>
-                                
                                 <td>✔️</td>
                             </tr>
-                            
+
                         </tbody>
                     </table>
 
+                    <input class="submitBtn" type="submit" value="Submit">
+                </form>
 
-                </main>
-            </div>
-            <footer id="footer">
-                <div id="footer-wrapper">
-                    <img id="footerIMG" src="images/logo.webp" alt="logo">
-                    <div id="contact-info">
-                        <h4>*** WINNERS WORLD CHAMBER OF COMMERCE ***</h4>
-                        <p>
-                            GPS ADDRESS (ER-4544-01) <br>
-                            Ghana-Accra<br>
-                            winnersworld1@gmail.com <br><br>
-                        </p>
-                    </div>
-                </div>
-                <hr>
-                <p id="sub-footer">
-                    &copy; <span id="current_year"></span> .:|:. Asomani
-                    Williams .:|:. Accra | Last Updated: <span
-                        id="last_updated"></span>
-                </p>
-            </footer>
+            </main>
         </div>
-        <script src="scripts/windchill.js" defer></script>
-        <script src="scripts/app.js"></script>
-        <script src="scripts/top.js"></script>
-    </body>
+        <footer id="footer">
+            <div id="footer-wrapper">
+                <img id="footerIMG" src="images/logo.webp" alt="logo">
+                <div id="contact-info">
+                    <h4>*** WINNERS WORLD CHAMBER OF COMMERCE ***</h4>
+                    <p>
+                        GPS ADDRESS (ER-4544-01) <br>
+                        Ghana-Accra<br>
+                        winnersworld1@gmail.com <br><br>
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <p id="sub-footer">
+                &copy; <span id="current_year"></span> .:|:. Asomani
+                Williams .:|:. Accra | Last Updated: <span id="last_updated"></span>
+            </p>
+        </footer>
+    </div>
+    <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/top.js"></script>
+</body>
 
 </html>

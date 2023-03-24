@@ -1,0 +1,42 @@
+@media only screen and (min-width: 64rem) {
+
+    header, nav, main, footer {
+        max-width: 84rem;
+        margin:auto;
+    }
+
+    #main{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
+    nav button {
+        display: none;
+    }
+    
+        
+    nav #primary-nav {
+        display: flex;
+        margin-left: 500px;
+        margin-top: -60px;
+    }
+    
+    nav ul li a {
+        border: 0;
+    }
+    
+
+
+    #Card{
+        height: auto;
+        display: grid;
+        margin: 10px;
+        padding: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* grid-column: 4/5;
+        grid-row: 1/1; */
+        background-color: brown;
+      }
+
+}
