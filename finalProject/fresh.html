@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/small.css" />
     <link rel="stylesheet" href="styles/medium.css" />
     <link rel="stylesheet" href="styles/large.css" />
+    <link rel="shortcut icon" href="images/icons/favicon.ico" type="imageicon">
 
 </head>
 
@@ -20,7 +21,7 @@
     <div>
         <header>
             <a id="logo_link" href="index.html">
-                <img class="my_logo" src="images/logo.jpg" alt="Logo" />
+                <img class="my_logo" src="images/logo1.jpg" alt="Logo" />
                 <h1>Winners Bountiful Foods</h1>
                 <h2>Ghana-Accra</h2>
             </a>
@@ -52,69 +53,82 @@
         <nav class="clear_fix">
             <hr>
             <ul>
-                <li ><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li class="active"><a href="fresh.html">Fresh</a></li>
                 <li><a href="about.html">About Us</a></li>
-
             </ul>
-
         </nav>
 
 
-            <main id="main">
+        <main id="main">
+            <br>
+            <hr>
+            <h2 class="orderTop">Order From Us Today</h2>
 
-                <br>
-                <hr>
-                
-                <h3>DESCRIPTION OF THE TARGET AUDIENCE</h3>
-                <p>
-                    The target audience for this website is for business in
-                    Ghana and Africa.
-                    The Chamber represents the voice of the business community
-                    with total commitment
-                    to playing a leadership role
-                </p>
-                <br>
-                <h3> PERSONA </h3>
-                <p>
-                    Business operators, firms, and industries
-                    <br>
-                    Nelson Asimenu is the 55 year-old owner of a Globetech
-                    Consult in Accra.
-                    The business has been existant for about ten years now. He
-                    has a wife three children,
-                    his main focus is using it use the site to get more client.
-                    Due to work schdules he mostly use his phone to access most
-                    website therefore this website
-                    is going to be responsive for both desktop and phone.
-                </p>
+            <form action="thanks.html" method="get">
 
-                <br>
-                <h3> SCENARIO </h3>
-                <p>
-                    - Want to focus on businesses and industrial marketing.
-                    <br>
-                    - Learn how to build professional business website.
-                    <br>
-                    - Users can contact us directly by using the Contact Us
-                    button on the website.
-                    <br>
-                    - What kind of benefits you will get from joining the
-                    chamber.
-                    <br>
-                    - What should I do to make my chamber grow
-                </p>
-            </main>
+                <fieldset>
+                    <legend>Order Details </legend>
+                    <label class="top">First Name<span>*</span> <input type="text" name="fname" required
+                            placeholder="First Name" id="fname" autofocus></label>
 
-            
+                    <label class="top">Email<span>*</span> <input type="email" name="email" required
+                            placeholder="winnersworld1@gmail.com"></label>
+
+                    <label class="top">Cell Phone<span>*</span> <input type="tel" name="phone" required
+                            pattern="^(\d+|\d+-\d+)$" placeholder="+23300000000" title="only numbers"></label>
+
+                    <label class="top">Special Instruction:<textarea name="bus-description" cols="23"
+                            rows="2" ></textarea></label>
+
+                </fieldset>
+
+
+                <fieldset>
+                    <legend class="beni-bellow">Select Membership Level
+                    </legend>
+                    <select id="membership_level" name="membership_level">
+                        <option value="NP Membership">Basic
+                            Membership - No fee </option>
+                        <option value="Bronze Membership">Standard Membership - $100
+                            yearly</option>
+                        <option value="Silver Membership">Advance -
+                            $500 yearly</option>
+                    </select>
+                </fieldset>
+
+                <!-- <h2 class="table-title">Membership Benefits</h2>
+                <table class="benefits">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="first-col">Membership
+                                Benefits</th>
+                            <th scope="col">Basic</th>
+                            <th scope="col">Standard</th>
+
+                            <th scope="col">Advance</th>
+                        </tr>
+                    </thead>
+
+                </table> -->
+                <input class="submitBtn" type="submit" value="Submit">
+            </form>
+
+
+
+
+
+
+        </main>
+
+
         <footer id="footer">
             <div id="footer-wrapper">
-                <img id="footerIMG" src="images/logo.webp" alt="logo">
+                <img id="footerIMG" src="images/logo1.jpg" alt="logo">
                 <div id="contact-info">
-                    <h4>.:| Winners Bountiful Foods |:. </h4>
                     <p>
                         GPS ADDRESS (ER-4544-01) | Ghana-Accra
-                        
+
                     </p>
                 </div>
             </div>
@@ -125,7 +139,17 @@
             </p>
         </footer>
 
-        </div>
-    </body>
+
+        <!-- <footer>
+                <p>
+                    &copy; <span id="current_year"></span> .:|:. Asomani Williams
+                    .:|:. Accra |
+                </p>
+                <p>Last Updated:
+                    <span id="last_updated"></span>
+                </p>
+            </footer> -->
+    </div>
+</body>
 
 </html>

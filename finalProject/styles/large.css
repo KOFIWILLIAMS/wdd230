@@ -1,11 +1,15 @@
 @media only screen and (min-width: 64rem) {
 
-    header, nav, main, footer {
+    header,
+    nav,
+    main,
+    footer,
+    #banner_home {
         max-width: 84rem;
-        margin:auto;
+        margin: auto;
     }
 
-    #main{
+    #main {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
@@ -14,29 +18,48 @@
     nav button {
         display: none;
     }
-    
-        
+
+
     nav #primary-nav {
         display: flex;
         margin-left: 500px;
         margin-top: -60px;
     }
-    
+
     nav ul li a {
         border: 0;
     }
-    
 
 
-    #Card{
-        height: auto;
-        display: grid;
-        margin: 10px;
+
+    #Card {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        max-width: 80%;
+        margin: auto;
         padding: auto;
+        margin-bottom: 2%;
         grid-template-columns: 1fr 1fr 1fr;
-        /* grid-column: 4/5;
-        grid-row: 1/1; */
-        background-color: brown;
-      }
+    }
+
+    #Card1,
+    #Card3,#Card2 {
+        width: 25%;
+    }
+
+
+
+
+    form fieldset {
+        margin: 2rem auto;
+        max-width: 20%;
+        border: 2px solid black;
+        background-color: gainsboro;
+        border-radius: 5px;
+        padding: .5rem;
+        box-shadow: rgb(207, 204, 204);
+        color:var(--background-color);
+    }
 
 }

@@ -34,4 +34,29 @@
         width: 500px;
     }
 
+
+
+
+    #Card{
+        display: grid;
+        margin: 5px;
+        padding: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* grid-column: 4/5;
+        grid-row: 1/1; */
+        /* background-color: brown; */
+      }
+
+      form fieldset {
+        margin: 2rem auto;
+        max-width: 40%;
+        border: 2px solid black;
+        background-color: gainsboro;
+        border-radius: 5px;
+        padding: .5rem;
+        box-shadow: rgb(207, 204, 204);
+        color:var(--background-color);
+    }
+
+
 }
