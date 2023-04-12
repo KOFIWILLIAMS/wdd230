@@ -5,8 +5,8 @@ const windc = document.querySelector('#windChill');
 const weatherIcon = document.querySelector('#weathericon');
  const captionDesc = document.querySelector('figcaption');
 
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Accra&units=metric&appid=9182590c6a24d9a7b60fd2d065a2b4b1"
-
+// const url = "https://api.openweathermap.org/data/2.5/weather?q=Accra&units=metric&appid=9182590c6a24d9a7b60fd2d065a2b4b1"
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Carlsbad,Ca,Us&units=imperial&appid=9182590c6a24d9a7b60fd2d065a2b4b1"
 async function apiFetch() {
     try {
       const response = await fetch(url);

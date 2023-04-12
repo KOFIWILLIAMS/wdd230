@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD-230 | SITE PLANNING</title>
 
-    <script src="scripts/script.js"></script>
+
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css" />
     <link rel="stylesheet" href="styles/medium.css" />
@@ -17,7 +17,6 @@
 </head>
 
 <body onload="getyear()">
-
     <div>
         <header>
             <a id="logo_link" href="index.html">
@@ -66,10 +65,10 @@
             <hr>
             <h2 class="orderTop">Order From Us Today</h2>
 
-            <form action="thanks.html" method="get">
+            <form id="myForm" action="#" method="get">
 
                 <fieldset>
-                    <legend>Order Details </legend>
+                    <legend>Bio Data</legend>
                     <label class="top">First Name<span>*</span> <input type="text" name="fname" required
                             placeholder="First Name" id="fname" autofocus></label>
 
@@ -78,24 +77,45 @@
 
                     <label class="top">Cell Phone<span>*</span> <input type="tel" name="phone" required
                             pattern="^(\d+|\d+-\d+)$" placeholder="+23300000000" title="only numbers"></label>
-
-                    <label class="top">Special Instruction:<textarea name="bus-description" cols="23"
-                            rows="2"></textarea></label>
-
                 </fieldset>
 
 
                 <fieldset>
-                    <legend class="beni-bellow">Select Membership Level
+                    <legend class="beni-bellow">Select Fruits
                     </legend>
-                    <select id="membership_level" name="membership_level">
+                    <!-- <select id="membership_level" name="membership_level">
                         <option value="NP Membership">Basic
                             Membership - No fee </option>
                         <option value="Bronze Membership">Standard Membership - $100
                             yearly</option>
                         <option value="Silver Membership">Advance -
                             $500 yearly</option>
-                    </select>
+                    </select> -->
+
+
+                    <label class="top" for="fruit1">
+                        <select id="fruit1">
+                            <option selected>First Fruit</option>
+                        </select>
+                    </label>
+
+                    <label class="top" for="fruit2">
+                        <select id="fruit2">
+                            <option selected>Second Fruit</option>
+                        </select>
+                    </label>
+
+                    <label class="top" for="fruit3">
+                        <select id="fruit3">
+                            <option selected>Last Fruit</option>
+                        </select>
+                    </label>
+
+
+                    <label class="top">Special Instruction:<textarea name="bus-description" cols="23"
+                            rows="2"></textarea></label>
+
+
                 </fieldset>
 
                 <!-- <h2 class="table-title">Membership Benefits</h2>
@@ -112,10 +132,29 @@
                     </thead>
 
                 </table> -->
-                <input class="submitBtn" type="submit" value="Submit">
+                <input class="submitBtn" type="submit" id="Submit">
             </form>
 
 
+
+
+            <form>
+
+                <div class="theOrder">
+                    <fieldset>
+                        <legend>Order Information</legend>
+                        <p id="thankYou"></p>
+                        <p id="orderDate"></p>
+                        <p id="firstName"></p>
+                        <p id="email"></p>
+                        <p id="phone"></p>
+                        <p id="instr"></p>
+
+                    </fieldset>
+                </div>
+               
+
+            </form>
 
 
 
@@ -135,7 +174,7 @@
             </div>
             <hr>
             <p id="sub-footer">
-                &copy; <span id="current_year"></span> .:|:. Winners Bountiful Foods  .:|:. Asomani
+                &copy; <span id="current_year"></span> .:|:. Winners Bountiful Foods .:|:. Asomani
                 Williams | Last Updated: <span id="last_updated"></span>
             </p>
         </footer>
@@ -151,6 +190,8 @@
                 </p>
             </footer> -->
     </div>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/fresh.js"></script>
 </body>
 
 </html>
