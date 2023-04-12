@@ -65,7 +65,7 @@
             <hr>
             <h2 class="orderTop">Order From Us Today</h2>
 
-            <form id="myForm" action="#" method="get">
+            <!-- <form id="myForm" action="#" method="get">
 
                 <fieldset>
                     <legend>Bio Data</legend>
@@ -93,7 +93,7 @@
                     </select> -->
 
 
-                    <label class="top" for="fruit1">
+                    <!-- <label class="top" for="fruit1">
                         <select id="fruit1">
                             <option selected>First Fruit</option>
                         </select>
@@ -116,7 +116,7 @@
                             rows="2"></textarea></label>
 
 
-                </fieldset>
+                </fieldset> -->
 
                 <!-- <h2 class="table-title">Membership Benefits</h2>
                 <table class="benefits">
@@ -131,13 +131,13 @@
                         </tr>
                     </thead>
 
-                </table> -->
+                </table> 
                 <input class="submitBtn" type="submit" id="Submit">
-            </form>
+            </form> -->
 
 
 
-
+<!-- 
             <form>
 
                 <div class="theOrder">
@@ -154,9 +154,77 @@
                 </div>
                
 
+            </form> -->
+
+            <form id="myForm" method="get">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="top" for="fname">First Name<span>*</span> <input type="text" name="fname"
+                            required placeholder="First Name" id="fname" autofocus></label>
+                    <label class="top" for="iemail">Email<span>*</span> <input type="email" name="email" required
+                            placeholder="joedoe@gmail.com" id="iemail"></label>
+                    <label class="top" for="iphone">Cell Phone<span>*</span> <input type="tel" name="phone" id="iphone"></label>
+                </fieldset>
+                <!-- <img src="https://via.placeholder.com/600/209" data-src="images/alldrink.webp" alt="Four smoothies" class="alldrink"> -->
+                <fieldset>
+                    <legend>Select Fruits</legend>
+                    
+                    <label for="fruit1">
+                        <select id="fruit1">
+                            <option selected>---Select 1st fruit---</option>
+                        </select>
+                    </label>
+                    
+                    <label for="fruit2">
+                        <select id="fruit2">
+                            <option selected>---Select 2nd fruit---</option>
+                        </select>
+                    </label>
+                    
+                    <label for="fruit3">
+                        <select id="fruit3">
+                            <option selected>---Select 3rd fruit---</option>
+                        </select>
+                    </label>
+                    <label for="instructions">Special Instructions:</label>
+                    <textarea id="instructions" name="instructions" ></textarea>
+                    
+                    <button type="submit" id="submit">Get Your Drink</button>
+                    <button type="reset" id="clear">Reset</button>
+                </fieldset>
+
+                <div class="theOrder">
+                    <fieldset >
+                        <legend>Order Details</legend>
+                        <p id="thankYou"></p>
+                        <p id="orderDate"></p>
+                        <p id="firstName"></p>
+                        <p id="email"></p>
+                        <p id="phone"></p>
+                        <p id="instr"></p>
+
+                        <!-- <p id="selectFruit1"></p> -->
+                    </fieldset>
+                </div>
+                <div class="nutrition">
+                    <fieldset class="nutri">
+                        <legend>Nutrition Information</legend>
+                        <p id="nutritionH2"></p>
+                        <div id="result"></div>
+                    </fieldset>
+                    <fieldset class="totals">
+                        <legend>Drink Information</legend>
+                        <p id="drinkName"></p>
+                        <p id="totalCarb" class="totalp"></p>
+                        <p id="totalFat" class="totalp"></p>
+                        <p id="totalProtein" class="totalp"></p>
+                        <p id="totalCalories" class="totalp"></p>
+                        <p id="totalSugar" class="totalp"></p>
+                    </fieldset>
+                </div>
+                <div><span id="specialty-drinks-count"></span></div>
+                
             </form>
-
-
 
 
         </main>
