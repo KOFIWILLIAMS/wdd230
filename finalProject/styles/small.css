@@ -257,7 +257,7 @@ form {
 
 form fieldset {
     margin: 2rem auto;
-    max-width: 60%;
+    /* max-width: 60%; */
     border: 2px solid black;
     background-color: gainsboro;
     border-radius: 5px;
@@ -268,11 +268,13 @@ form fieldset {
 
 form legend {
     color: var(--background-color);
-    margin: 0 1rem;
-    padding: 0 .5rem;
+    margin: 0 auto;
+    padding: 0.2rem .5rem;
     font-weight: bold;
-    font-size: 18px;
-}
+    background-color: yellow;
+    border-radius: 10px;
+} 
+
 
 form label span {
     color: red;
@@ -282,10 +284,9 @@ form label span {
 form label.top {
     display: block;
     padding-top: 1rem;
-    color: black;
+    margin-top: -20px;
     font-size: 16px;
-    padding-bottom: 10px;
-    align-items: start;
+    font-weight: bold;
 }
 
 form .beni-bellow em {
@@ -318,7 +319,9 @@ form input.submitBtn {
     margin: auto;
     font-size: 25px;
     font-weight: bold;
-    padding: 5px 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 5px;
 }
 
@@ -348,15 +351,37 @@ form label.top textarea:valid {
 }
 
 
-.selectedFruit {
-    background-color: var(--color1);
-    color: white;
-    display: inline-block;
-    font-family: var(--headings);
-    padding: 10px;
-    font-weight: bold;
-    border-radius: 54%;
+
+form label.top input , select, textarea {
+  
+    display: block;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: .75rem;
+    margin-bottom: 1rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
 }
+
+
+
+#submit, #clear,
+#button {
+    background-color: yellow;
+    color: var(--backrround-Color);
+    max-width: 70%;
+    display: flex;
+    margin: auto;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+
 
 
 /*##################### Footer ######################## */
